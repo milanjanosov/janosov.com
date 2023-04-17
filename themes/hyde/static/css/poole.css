@@ -1,39 +1,7 @@
-/*
- *                        ___
- *                       /\_ \
- *  _____     ___     ___\//\ \      __
- * /\ '__`\  / __`\  / __`\\ \ \   /'__`\
- * \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
- *  \ \ ,__/\ \____/\ \____//\____\ \____\
- *   \ \ \/  \/___/  \/___/ \/____/\/____/
- *    \ \_\
- *     \/_/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/poole.
- */
-
-
-/*
- * Contents
- *
- * Body resets
- * Custom type
- * Messages
- * Container
- * Masthead
- * Posts and pages
- * Pagination
- * Reverse layout
- * Themes
- */
-
-
-/*
- * Body resets
- *
- * Update the foundational and global aspects of the page.
- */
+:root {
+  --default-text-color: hsla(0, 0%, 95%, 1);
+  --link-color: rgb(170, 197, 255);
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -59,7 +27,7 @@ html {
 }
 
 body {
-  color: #515151;
+  color: var(--default-text-color);
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -68,7 +36,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #227bb9;
+  color: var(--link-color);
   text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */

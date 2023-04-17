@@ -46,11 +46,13 @@ html {
 }
 
 body {
+  backdrop-filter: brightness(60%);
   background-color: #000;
   background-image: url(/background.jpeg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-backdrop-filter: brightness(60%);
 }
 
 /*
