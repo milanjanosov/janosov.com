@@ -1,0 +1,8 @@
+baseURL = 'https://janosov.com/'
+languageCode = 'en-us'
+title = 'Milan Janosov'
+theme = 'hyde'
+
+[Params]
+description = 'Network scientist, data science researcher'
+copyright = ' '
