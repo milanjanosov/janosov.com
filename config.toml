@@ -1,8 +1,14 @@
 baseURL = 'https://janosov.com/'
 languageCode = 'en-us'
-title = 'Milan Janosov'
+title = 'Milan Janosov, PhD'
 theme = 'hyde'
 
 [Params]
-description = 'Network scientist, data science researcher'
+description = "Milan Janosov, PhD - Network scientist, data science researcher"
+lead = ['Network scientist', 'data science researcher']
 copyright = ' '
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

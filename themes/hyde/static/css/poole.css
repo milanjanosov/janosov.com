@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
+  font-family: Poppins, sans-serif;
 }
 h1 {
   font-size: 2rem;
@@ -233,10 +234,14 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
+  text-transform: uppercase;
 }
 
+.lead p {
+  margin-bottom: 0;
+}
 
 /*
  * Messages

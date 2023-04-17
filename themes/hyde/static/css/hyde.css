@@ -48,6 +48,7 @@ html {
 body {
   background-color: #000;
   background-image: url(/background.jpeg);
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -86,8 +87,7 @@ body {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: Poppins, sans-serif;
-  font-size: 3.25rem;
+  font-size: 1.25rem;
 }
 
 /* Sidebar nav */
