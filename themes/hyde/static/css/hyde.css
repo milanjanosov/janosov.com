@@ -52,6 +52,7 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
   -webkit-backdrop-filter: brightness(60%);
 }
 
@@ -255,4 +256,76 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* Contact form */
+.contact-form {
+  display: grid;
+  grid-template-areas: "name"
+    "email"
+    "subject"
+    "message"
+    "send";
+  gap: 1rem;
+}
+
+@media (min-width: 30em) {
+  .contact-form {
+  grid-template-areas: "name email"
+    "subject subject"
+    "message message"
+    ". send";
+  }
+}
+
+.contact-name {
+  grid-area: name;
+}
+
+.contact-email {
+  grid-area: email;
+}
+
+.contact-subject {
+  grid-area: subject;
+}
+
+.contact-message {
+  grid-area: message;
+}
+
+.contact-send {
+  grid-area: send;
+}
+
+.contact-label {
+  display: inline-block;
+  font-size: .75rem;
+  width: 5rem;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+.contact-text-input,
+.contact-textarea,
+.contact-send {
+  background-color: var(--dark-background-color);
+  border: 1px solid var(--border-color);
+  color: var(--default-text-color);
+  font-size: .75rem;
+  padding: .25rem;
+}
+
+.contact-message {
+  height: 10rem;
+}
+
+.contact-send {
+  background-color: var(--light-background-color);
+  justify-self: end;
+  padding: .25rem 1rem;
 }

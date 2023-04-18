@@ -1,5 +1,8 @@
 :root {
+  --border-color: hsla(0, 0%, 45%, 1);
+  --dark-background-color: hsla(0, 0%, 5%, .75);
   --default-text-color: hsla(0, 0%, 95%, 1);
+  --light-background-color: hsla(0, 0%, 35%, .95);
   --link-color: rgb(170, 197, 255);
 }
 
@@ -243,10 +246,10 @@ tbody tr:nth-child(odd) th {
  */
 .container {
   max-width: 38rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 
