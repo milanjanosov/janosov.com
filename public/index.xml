@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Milan Janosov, PhD</title>
+    <link>https://janosov.com/</link>
+    <description>Recent content on Milan Janosov, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Apr 2023 21:00:00 +0000</lastBuildDate><atom:link href="https://janosov.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Appearances</title>
+      <link>https://janosov.com/page/appearances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://janosov.com/page/appearances/</guid>
+      <description>Scientific publications on Google Scholar
+on ResearchGate ​
+Populizers on Nightingale
+on Qubit ​
+Conferences, workshops 2021 ELTE Atomoktól a Csillagokig 2021 Budapest Business Intelligence Forum, keynote talk 2021 Media Hungary Cabrio conference, Budapest 2021 Budapest Start-up Safari 2021 Budapest Machine Learning Forum 2021 Manning Graph Data Science, Online 2021 FabLab Seminar series, Timisoara 2020 Budapest Business Intelligence Forum 2020 Internet Hungary, Budapest 2020 International Conference on Computational Social Science, Boston 2020 Neo4J Budapest meetup 2019 Budapest Data Science Christmas, Budapest 2019 Eu.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://janosov.com/page/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://janosov.com/page/contact/</guid>
+      <description> Name Email Subject Message </description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://janosov.com/page/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://janosov.com/page/services/</guid>
+      <description>Data Science Consulting
+Some text that describes the service in two or three sentences. Some text that describes the service in two or three sentences.
+Network Science Masterclass
+Some text that describes the service in two or three sentences. Some text that describes the service in two or three sentences. Some text that describes the service in two or three sentences.
+Data Science Consulting
+Some text that describes the service in two or three sentences.</description>
+    </item>
+    
+    <item>
+      <title>Second Test</title>
+      <link>https://janosov.com/blog/second-test/</link>
+      <pubDate>Tue, 18 Apr 2023 21:00:00 +0000</pubDate>
+      
+      <guid>https://janosov.com/blog/second-test/</guid>
+      <description>&lt;p&gt;This is the second test post.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First Test</title>
+      <link>https://janosov.com/blog/first-test/</link>
+      <pubDate>Sun, 19 Mar 2023 09:00:00 +0000</pubDate>
+      
+      <guid>https://janosov.com/blog/first-test/</guid>
+      <description>&lt;p&gt;This is test post #1.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
