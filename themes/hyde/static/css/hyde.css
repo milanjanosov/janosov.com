@@ -329,3 +329,32 @@ a.sidebar-nav-item:focus {
   justify-self: end;
   padding: .25rem 1rem;
 }
+
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service {
+  background-color: var(--dark-background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: .8rem;
+  padding: 1rem;
+  transition: all .3s ease-out;
+  width: 15rem;
+}
+
+.service:hover {
+  transform:
+    perspective(500px)
+    scale3d(1, 1, 2)
+    translateZ(10px)
+    ;
+}
+
+.service-title {
+  font-weight: 800;
+}
