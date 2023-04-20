@@ -46,14 +46,10 @@ html {
 }
 
 body {
-  backdrop-filter: brightness(60%);
   background-color: #000;
-  background-image: url(../background.jpeg);
-  background-position: top center;
+  background-image: url(/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
-  -webkit-backdrop-filter: brightness(60%);
 }
 
 /*
@@ -67,6 +63,7 @@ body {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
+  /* background-color: #202020; */
   background-color: hsla(0, 0%, 15%, .5);
 }
 @media (min-width: 48em) {
@@ -89,7 +86,8 @@ body {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-size: 1.25rem;
+  font-family: Poppins, sans-serif;
+  font-size: 3.25rem;
 }
 
 /* Sidebar nav */

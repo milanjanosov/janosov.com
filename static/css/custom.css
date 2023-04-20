@@ -1,7 +1,42 @@
+:root {
+  --border-color: hsla(0, 0%, 45%, 1);
+  --border-radius: 5px;
+  --dark-background-color: hsla(0, 0%, 5%, .75);
+  --default-text-color: hsla(0, 0%, 95%, 1);
+  --light-background-color: hsla(0, 0%, 35%, .95);
+  --link-color: rgb(170, 197, 255);
+}
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+a {
+  color: var(--link-color);
+}
+
+body {
+  color: var(--default-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--default-text-color);
+  font-family: Poppins, sans-serif;
+}
+
+.lead {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.lead p {
+  margin-bottom: 0;
 }
 
 .posts {
@@ -95,14 +130,33 @@
   background-color: var(--dark-background-color);
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
-  font-size: 0.8rem;
   padding: 1rem;
   transition: all 0.3s ease-out;
-  width: 15rem;
+}
+@media (min-width: 64rem) {
+  .service {
+    width: calc((100% - 1rem) / 2);
+  }
 }
 .service:hover {
   transform: perspective(500px) scale3d(1, 1, 2) translateZ(10px);
 }
 .service__title {
+  font-size: 1.5rem;
   font-weight: 800;
+}
+
+body {
+  backdrop-filter: brightness(60%);
+  background-image: url(../background.jpeg);
+  background-position: top center;
+  min-height: 100vh;
+  -webkit-backdrop-filter: brightness(60%);
+  background-color: hsla(0, 0%, 15%, 0.5);
+}
+
+@media (min-width: 48em) {
+  .sidebar-about h1 {
+    font-size: 1.25rem;
+  }
 }/*# sourceMappingURL=custom.css.map */
