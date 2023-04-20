@@ -1,5 +1,7 @@
 @use 'variables';
 
+// defaults
+
 *,
 *::after,
 *::before {
@@ -11,8 +13,13 @@ a {
 }
 
 body {
+    background-color: hsla(0, 0%, 15%, .5);
+    backdrop-filter: brightness(60%);
     background-image: url(../images/background.jpeg);
+    background-position: top center;
     color: var(--default-text-color);
+    min-height: 100vh;
+    -webkit-backdrop-filter: brightness(60%);
 }
 
 h1,
@@ -25,27 +32,70 @@ h6 {
     font-family: Poppins, sans-serif;
 }
 
+h1 {
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+// class overrides
+
 .lead {
     font-size: 1rem;
+    margin-top: 1rem;
     text-transform: uppercase;
 
     p {
         margin-bottom: 0;
+        line-height: 2rem;
     }
 }
+
+.content {
+    padding-top: 2rem;
+
+    @media (min-width: 64rem) {
+        margin-left: 20rem;
+        margin-right: 2rem;
+    }
+
+    @media (min-width: 48rem) {
+        max-width: 44rem;
+    }
+}
+
+.sidebar-about {
+    h1 {
+        line-height: 2rem;
+        margin-top: 1.6rem;
+    }
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+
+    li {
+        display: flex;
+        line-height: 2rem;
+    }
+}
+
+// custom
 
 .posts {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .post-list-item {
-    background: var(--dark-background-color);
+    // background: var(--dark-background-color);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
     width: 100%;
 
@@ -55,12 +105,23 @@ h6 {
 
     &__title {
         font-size: 1.25rem;
+        line-height: 2rem;
         margin: 0;
     }
 
     &__date {
         color: var(--default-text-color);
         font-size: .75rem;
+        line-height: 1rem;
+    }
+
+    &__summary {
+        line-height: 1.5rem;
+        margin-top: .9rem;
+    }
+
+    &__more {
+        margin-top: .5rem;
     }
 }
 
@@ -162,17 +223,23 @@ h6 {
     }
 }
 
-body {
-    backdrop-filter: brightness(60%);
-    background-image: url(../background.jpeg);
-    background-position: top center;
-    min-height: 100vh;
-    -webkit-backdrop-filter: brightness(60%);
-   background-color: hsla(0, 0%, 15%, .5);
-}
-
 @media (min-width: 48em) {
     .sidebar-about h1 {
         font-size: 1.25rem;
     }
 }
+
+// debug stuff
+
+// body {
+//     background: repeating-linear-gradient(180deg, black, white 1px, white 20px);
+// }
+
+// * {
+//     outline: 1px solid red;
+// }
+
+// .sidebar-sticky {
+//     bottom: unset;
+//     top: 1rem;
+// }

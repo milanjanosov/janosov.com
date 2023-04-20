@@ -18,7 +18,13 @@ a {
 }
 
 body {
+  background-color: hsla(0, 0%, 15%, 0.5);
+  backdrop-filter: brightness(60%);
+  background-image: url(../images/background.jpeg);
+  background-position: top center;
   color: var(--default-text-color);
+  min-height: 100vh;
+  -webkit-backdrop-filter: brightness(60%);
 }
 
 h1,
@@ -31,12 +37,48 @@ h6 {
   font-family: Poppins, sans-serif;
 }
 
+h1 {
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
 .lead {
   font-size: 1rem;
+  margin-top: 1rem;
   text-transform: uppercase;
 }
 .lead p {
   margin-bottom: 0;
+  line-height: 2rem;
+}
+
+.content {
+  padding-top: 2rem;
+}
+@media (min-width: 64rem) {
+  .content {
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+}
+@media (min-width: 48rem) {
+  .content {
+    max-width: 44rem;
+  }
+}
+
+.sidebar-about h1 {
+  line-height: 2rem;
+  margin-top: 1.6rem;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-nav li {
+  display: flex;
+  line-height: 2rem;
 }
 
 .posts {
@@ -44,13 +86,14 @@ h6 {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .post-list-item {
-  background: var(--dark-background-color);
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
   width: 100%;
 }
@@ -61,11 +104,20 @@ h6 {
 }
 .post-list-item__title {
   font-size: 1.25rem;
+  line-height: 2rem;
   margin: 0;
 }
 .post-list-item__date {
   color: var(--default-text-color);
   font-size: 0.75rem;
+  line-height: 1rem;
+}
+.post-list-item__summary {
+  line-height: 1.5rem;
+  margin-top: 0.9rem;
+}
+.post-list-item__more {
+  margin-top: 0.5rem;
 }
 
 .contact-form {
@@ -144,15 +196,6 @@ h6 {
 .service__title {
   font-size: 1.5rem;
   font-weight: 800;
-}
-
-body {
-  backdrop-filter: brightness(60%);
-  background-image: url(../background.jpeg);
-  background-position: top center;
-  min-height: 100vh;
-  -webkit-backdrop-filter: brightness(60%);
-  background-color: hsla(0, 0%, 15%, 0.5);
 }
 
 @media (min-width: 48em) {
