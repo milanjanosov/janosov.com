@@ -67,6 +67,10 @@ h1 {
     h1 {
         line-height: 2rem;
         margin-top: 1.6rem;
+
+        @media (min-width: 48em) {
+            font-size: 1.25rem;
+        }
     }
 }
 
@@ -91,7 +95,7 @@ h1 {
 }
 
 .post-list-item {
-    // background: var(--dark-background-color);
+    background: var(--dark-background-color);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
     display: flex;
@@ -178,13 +182,14 @@ h1 {
     &__send {
         background-color: var(--dark-background-color);
         border: 1px solid var(--border-color);
+        border-radius: 5px;
         color: var(--default-text-color);
         font-size: .75rem;
         padding: .25rem;
     }
 
     &__message {
-        height: 10rem;
+        height: 15rem;
     }
 
     &__send {
@@ -199,33 +204,46 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-top: 2rem;
 }
 
 .service {
     background-color: var(--dark-background-color);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
-    // font-size: .8rem;
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
-    transition: all .3s ease-out;
 
     @media (min-width: 64rem) {
         width: calc((100% - 1rem) / 2);
     }
 
-    &:hover {
-        transform: perspective(500px) scale3d(1, 1, 2) translateZ(10px);
+    &__title {
+        font-size: 1.25rem;
+        line-height: 2rem;
+        margin-bottom: .9rem;
     }
 
-    &__title {
-        font-size: 1.5rem;
-        font-weight: 800;
+    &__contact {
+        background-color: var(--light-background-color);
+        line-height: 2rem;
+        padding: 0 1rem;
+        text-align: center;
+        width: 10rem;
+
+        &:hover {
+            text-decoration: none;
+        }
     }
 }
 
-@media (min-width: 48em) {
-    .sidebar-about h1 {
-        font-size: 1.25rem;
+.post-list-item,
+.service {
+    transition: all .3s ease-out;
+
+    &:hover {
+        transform: perspective(500px) scale3d(1, 1, 2) translateZ(10px);
     }
 }
 
@@ -237,9 +255,4 @@ h1 {
 
 // * {
 //     outline: 1px solid red;
-// }
-
-// .sidebar-sticky {
-//     bottom: unset;
-//     top: 1rem;
 // }

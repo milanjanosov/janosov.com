@@ -71,6 +71,11 @@ h1 {
   line-height: 2rem;
   margin-top: 1.6rem;
 }
+@media (min-width: 48em) {
+  .sidebar-about h1 {
+    font-size: 1.25rem;
+  }
+}
 
 .sidebar-nav {
   display: flex;
@@ -90,6 +95,7 @@ h1 {
 }
 
 .post-list-item {
+  background: var(--dark-background-color);
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   display: flex;
@@ -158,12 +164,13 @@ h1 {
 .contact-form__text-input, .contact-form__textarea, .contact-form__send {
   background-color: var(--dark-background-color);
   border: 1px solid var(--border-color);
+  border-radius: 5px;
   color: var(--default-text-color);
   font-size: 0.75rem;
   padding: 0.25rem;
 }
 .contact-form__message {
-  height: 10rem;
+  height: 15rem;
 }
 .contact-form__send {
   background-color: var(--light-background-color);
@@ -176,30 +183,43 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
+  margin-top: 2rem;
 }
 
 .service {
   background-color: var(--dark-background-color);
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
-  transition: all 0.3s ease-out;
 }
 @media (min-width: 64rem) {
   .service {
     width: calc((100% - 1rem) / 2);
   }
 }
-.service:hover {
-  transform: perspective(500px) scale3d(1, 1, 2) translateZ(10px);
-}
 .service__title {
-  font-size: 1.5rem;
-  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-bottom: 0.9rem;
+}
+.service__contact {
+  background-color: var(--light-background-color);
+  line-height: 2rem;
+  padding: 0 1rem;
+  text-align: center;
+  width: 10rem;
+}
+.service__contact:hover {
+  text-decoration: none;
 }
 
-@media (min-width: 48em) {
-  .sidebar-about h1 {
-    font-size: 1.25rem;
-  }
+.post-list-item,
+.service {
+  transition: all 0.3s ease-out;
+}
+.post-list-item:hover,
+.service:hover {
+  transform: perspective(500px) scale3d(1, 1, 2) translateZ(10px);
 }/*# sourceMappingURL=custom.css.map */
