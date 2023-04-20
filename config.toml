@@ -1,4 +1,4 @@
-baseURL = 'https://janosov.com/'
+baseURL = 'http://www.nandordevai.net/janosov.com/'
 languageCode = 'en-us'
 title = 'Milan Janosov, PhD'
 theme = 'hyde'
