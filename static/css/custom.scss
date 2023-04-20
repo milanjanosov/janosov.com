@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 .posts {
     display: flex;
     flex-direction: row;
@@ -25,5 +31,99 @@
     &__date {
         color: var(--default-text-color);
         font-size: .75rem;
+    }
+}
+
+.contact-form {
+    display: grid;
+    grid-template-areas: "name"
+        "email"
+        "subject"
+        "message"
+        "send";
+    gap: 1rem;
+
+    @media (min-width: 30em) {
+        grid-template-areas: "name email"
+            "subject subject"
+            "message message"
+            ". send";
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: .25rem;
+    }
+
+    &__name {
+        grid-area: name;
+    }
+
+    &__email {
+        grid-area: email;
+    }
+
+    &__subject {
+        grid-area: subject;
+    }
+
+    &__message {
+        grid-area: message;
+    }
+
+    &__send {
+        grid-area: send;
+    }
+
+    &__label {
+        display: inline-block;
+        font-size: .75rem;
+        width: 5rem;
+    }
+
+    &__text-input,
+    &__textarea,
+    &__send {
+        background-color: var(--dark-background-color);
+        border: 1px solid var(--border-color);
+        color: var(--default-text-color);
+        font-size: .75rem;
+        padding: .25rem;
+    }
+
+    &__message {
+        height: 10rem;
+    }
+
+    &__send {
+        background-color: var(--light-background-color);
+        justify-self: end;
+        padding: .25rem 1rem;
+    }
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.service {
+    background-color: var(--dark-background-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: .8rem;
+    padding: 1rem;
+    transition: all .3s ease-out;
+    width: 15rem;
+
+    &:hover {
+        transform: perspective(500px) scale3d(1, 1, 2) translateZ(10px);
+    }
+
+    &__title {
+        font-weight: 800;
     }
 }

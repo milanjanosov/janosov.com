@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 .posts {
   display: flex;
   flex-direction: row;
@@ -25,4 +31,78 @@
 .post-list-item__date {
   color: var(--default-text-color);
   font-size: 0.75rem;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-areas: "name" "email" "subject" "message" "send";
+  gap: 1rem;
+}
+@media (min-width: 30em) {
+  .contact-form {
+    grid-template-areas: "name email" "subject subject" "message message" ". send";
+  }
+}
+.contact-form__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.contact-form__name {
+  grid-area: name;
+}
+.contact-form__email {
+  grid-area: email;
+}
+.contact-form__subject {
+  grid-area: subject;
+}
+.contact-form__message {
+  grid-area: message;
+}
+.contact-form__send {
+  grid-area: send;
+}
+.contact-form__label {
+  display: inline-block;
+  font-size: 0.75rem;
+  width: 5rem;
+}
+.contact-form__text-input, .contact-form__textarea, .contact-form__send {
+  background-color: var(--dark-background-color);
+  border: 1px solid var(--border-color);
+  color: var(--default-text-color);
+  font-size: 0.75rem;
+  padding: 0.25rem;
+}
+.contact-form__message {
+  height: 10rem;
+}
+.contact-form__send {
+  background-color: var(--light-background-color);
+  justify-self: end;
+  padding: 0.25rem 1rem;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service {
+  background-color: var(--dark-background-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-size: 0.8rem;
+  padding: 1rem;
+  transition: all 0.3s ease-out;
+  width: 15rem;
+}
+.service:hover {
+  transform: perspective(500px) scale3d(1, 1, 2) translateZ(10px);
+}
+.service__title {
+  font-weight: 800;
 }/*# sourceMappingURL=custom.css.map */
