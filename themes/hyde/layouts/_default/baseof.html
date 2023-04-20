@@ -8,5 +8,14 @@
     {{ if not .Site.IsServer }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
+  <script>
+    addEventListener('DOMContentLoaded', () => {
+      if (location.hash !== '') {
+        let subject = location.hash.slice(1).replaceAll('-', ' ');
+        subject = subject[0].toUpperCase() + subject.slice(1);
+        document.querySelector('.contact-form__subject input').value = subject;
+      }
+    });
+  </script>
   </body>
 </html>

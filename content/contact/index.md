@@ -4,7 +4,8 @@ menu: main
 weight: 3
 ---
 
-<!-- https://formspree.io/plans -->
+<!-- https://formspree.io -->
+
 <form class="contact-form">
     <div class="contact-form__item contact-form__name">
         <label class="contact-form__label" for="name">Name</label>

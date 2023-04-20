@@ -214,6 +214,8 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    padding-bottom: 3rem;
+    position: relative;
 
     @media (min-width: 64rem) {
         width: calc((100% - 1rem) / 2);
@@ -227,9 +229,12 @@ h1 {
 
     &__contact {
         background-color: var(--light-background-color);
+        border-radius: 5px;
+        bottom: 1rem;
         line-height: 2rem;
         padding: 0 1rem;
         text-align: center;
+        position: absolute;
         width: 10rem;
 
         &:hover {

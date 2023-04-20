@@ -8,18 +8,21 @@ weight: 5
     <div class="service">
         <h2 class="service__title">Data Science Consulting</h2>
         <p class="service__description">Some text that describes the service in two or three sentences. Some text that describes the service in two or three sentences.</p>
-        <a class="service__contact" href="./contact">Contact me</a>
+        <a class="service__contact" href="../contact#data-science-consulting">Contact me</a>
     </div>
     <div class="service">
         <h2 class="service__title">Network Science Masterclass</h2>
         <p class="service__description">Some text that describes the service in two or three sentences. Some text that describes the service in two or three sentences. Some text that describes the service in two or three sentences.</p>
+        <a class="service__contact" href="../contact#network-science-masterclass">Contact me</a>
     </div>
     <div class="service">
         <h2 class="service__title">Data Science Consulting</h2>
         <p class="service__description">Some text that describes the service in two or three sentences. Some text that describes the service in two or three sentences.</p>
+        <a class="service__contact" href="../contact#data-science-consulting">Contact me</a>
     </div>
     <div class="service">
         <h2 class="service__title">Network Science Masterclass</h2>
         <p class="service__description">Some text that describes the service in two or three sentences. Some text that describes the service in two or three sentences.</p>
+        <a class="service__contact" href="../contact#network-science-masterclass">Contact me</a>
     </div>
 </div>
