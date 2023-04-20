@@ -6,22 +6,22 @@ weight: 2
 
 ## Scientific publications
 
-- on <a href="https://scholar.google.com/citations?hl=en&user=5_ep83MAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+- on [Google Scholar](https://scholar.google.com/citations?hl=en&user=5_ep83MAAAAJ&view_op=list_works&sortby=pubdate)
 
-- on <a href="https://www.researchgate.net/profile/Milan-Janosov-2">ResearchGate</a>
+- on [ResearchGate](https://www.researchgate.net/profile/Milan-Janosov-2)
 ​
 ## Populizers
 
-- on <a href="https://nightingaledvs.com/author/milan-janosov/">Nightingale</a>
+- on [Nightingale](https://nightingaledvs.com/author/milan-janosov/)
 
-- on <a href="https://qubit.hu/author/janosovm">Qubit</a>
+- on [Qubit](https://qubit.hu/author/janosovm)
 ​
 ## Conferences, workshops
 
-- 2021 <a href="https://www.youtube.com/watch?v=LRDWvs8tRMY">ELTE Atomoktól a Csillagokig</a>
-- 2021 <a href="https://budapestbi.hu/2021/">Budapest Business Intelligence Forum, keynote talk</a>
+- 2021 [ELTE Atomoktól a Csillagokig](https://www.youtube.com/watch?v=LRDWvs8tRMY)
+- 2021 [Budapest Business Intelligence Forum, keynote talk](https://budapestbi.hu/2021/)
 - 2021 Media Hungary Cabrio conference, Budapest
-- 2021 <a href="https://vimeo.com/540658896">Budapest Start-up Safari</a>
+- 2021 [Budapest Start-up Safari](https://vimeo.com/540658896)
 - 2021 Budapest Machine Learning Forum
 - 2021 Manning Graph Data Science, Online
 - 2021 FabLab Seminar series, Timisoara
@@ -48,8 +48,8 @@ weight: 2
 ​
 ## Podcasts​
 
-- 2021 <a href="https://open.spotify.com/episode/0EhJFdOqHQsqoCeNQ4mU71?si=WPJbBW0zRR-0TFcxH5JVgA&dl_branch=1&fbclid=IwAR2xf7QLxvj7dGqqYh8qwnbhIJISzIgy4FYyJkvD1gAJq8Nud7Q7Mr8o6XU">Ludwig Múzeum</a>
-- 2021 <a href="https://www.youtube.com/watch?v=qcsXfOJzwDo">Beszélgessünk - Gazsó Orsolyával</a>
-- 2021 <a href="https://open.spotify.com/episode/4cXKv58Y71F0eTmb6dtjxD">A Holtidő Médiája</a>
-- 2020 <a href="https://open.spotify.com/episode/1XbgobeneJurTFxkW7pdUF?si=eK1HhIn1SWGFkKooyOuVVA&dl_branch=1">Szertár</a>
-- 2020 <a href="https://open.spotify.com/episode/2xp05POsTji6T43iecigap?si=1wghuRRDQBy_stEt-6OBkg">A Holtidő Médiája</a>
+- 2021 [Ludwig Múzeum](https://open.spotify.com/episode/0EhJFdOqHQsqoCeNQ4mU71?si=WPJbBW0zRR-0TFcxH5JVgA&dl_branch=1&fbclid=IwAR2xf7QLxvj7dGqqYh8qwnbhIJISzIgy4FYyJkvD1gAJq8Nud7Q7Mr8o6XU)
+- 2021 [Beszélgessünk - Gazsó Orsolyával](https://www.youtube.com/watch?v=qcsXfOJzwDo)
+- 2021 [A Holtidő Médiája](https://open.spotify.com/episode/4cXKv58Y71F0eTmb6dtjxD)
+- 2020 [Szertár](https://open.spotify.com/episode/1XbgobeneJurTFxkW7pdUF?si=eK1HhIn1SWGFkKooyOuVVA&dl_branch=1)
+- 2020 [A Holtidő Médiája](https://open.spotify.com/episode/2xp05POsTji6T43iecigap?si=1wghuRRDQBy_stEt-6OBkg)
