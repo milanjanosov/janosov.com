@@ -4,9 +4,12 @@
 {{ range .Data.Pages -}}
   <div class="post-list-item">
     <h2 class="post-list-item__title">{{ .Title }}</h2>
+    {{ if .Param "preview_image" }}
+      <img class="post-list-item__preview" src="{{ .Site.BaseURL }}/images/{{ .Param "preview_image" }}">
+    {{ end }}
     <time class="post-list-item__date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
     <div class="post-list-item__summary">{{ .Summary }}</div>
-    <a href="{{ .Permalink }}">Read more</a>
+    <a class="post-list-item__more" href="{{ .Permalink }}">Read more</a>
   </div>
 {{- end }}
 </div>
