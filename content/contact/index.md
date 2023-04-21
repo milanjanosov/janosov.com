@@ -23,5 +23,5 @@ weight: 3
         <label class="contact-form__label" for="message">Message</label>
         <textarea class="contact-form__message contact-form__textarea"></textarea>
     </div>
-    <input type="submit" value="Send" class="contact-form__send">
+    <input type="submit" value="Send" class="contact-form__send button">
 </form>

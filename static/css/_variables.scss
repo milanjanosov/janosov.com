@@ -1,8 +1,10 @@
 :root {
     --border-color: hsla(0, 0%, 45%, 1);
     --border-radius: 5px;
-    --dark-background-color: hsla(0, 0%, 5%, .75);
+    --button-background: hsla(0, 0%, 35%, .9);
+    --button-hover-background: hsla(221, 100%, 83%, 1);
+    --dark-background-color: hsla(0, 0%, 15%, .9);
     --default-text-color: hsla(0, 0%, 95%, 1);
-    --light-background-color: hsla(0, 0%, 35%, .95);
-    --link-color: rgb(170, 197, 255);
+    --light-background-color: hsla(0, 0%, 35%, .9);
+    --link-color: hsla(221, 100%, 83%, 1);
 }

@@ -3,9 +3,7 @@ title: "First Test"
 date: 2023-03-19T09:00:00
 ---
 
-![](lighthouse.jpg)
-
-This is test post #1.
+![](1lighthouse.jpg)
 
 <!--more-->
 
