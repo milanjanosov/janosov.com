@@ -22656,8 +22656,23 @@ function InsertStackElement(node, body) {
         const geometry = new BufferGeometry();
         const positions = new Float32Array(6);
         geometry.setAttribute("position", new BufferAttribute(positions, 3));
+        const s = new Color(this.config.link.startColor);
+        const e = new Color(this.config.link.endColor);
+        const colors = new Float32Array([
+          s.r,
+          s.g,
+          s.b,
+          e.r,
+          e.g,
+          e.b
+        ]);
+        geometry.setAttribute("color", new BufferAttribute(colors, 3));
         geometry.setDrawRange(0, 2);
-        const line = new Line(geometry, this.linkMaterial);
+        const linkMaterial = new LineBasicMaterial({
+          linewidth: 20,
+          vertexColors: true
+        });
+        const line = new Line(geometry, linkMaterial);
         this.links.add(line);
       });
       this.scene.add(this.links);

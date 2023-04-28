@@ -122,8 +122,19 @@ export class SceneBuilder {
             const geometry = new THREE.BufferGeometry();
             const positions = new Float32Array(6);
             geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            const s = new THREE.Color(this.config.link.startColor);
+            const e = new THREE.Color(this.config.link.endColor);
+            const colors = new Float32Array([
+                s.r, s.g, s.b,
+                e.r, e.g, e.b
+            ]);
+            geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
             geometry.setDrawRange(0, 2);
-            const line = new THREE.Line(geometry, this.linkMaterial);
+            const linkMaterial = new THREE.LineBasicMaterial({
+                linewidth: 20,
+                vertexColors: true,
+            });
+            const line = new THREE.Line(geometry, linkMaterial);
             this.links.add(line);
         });
         this.scene.add(this.links);
