@@ -76,7 +76,7 @@ export class SceneBuilder {
                     opacity: {
                         type: 'f',
                         value: this.config.link.opacity,
-                    },
+                    }
                 },
                 vertexShader: `
                     varying vec2 vUv;
@@ -94,7 +94,7 @@ export class SceneBuilder {
                     }`,
             });
         } else {
-            this.linkMaterial = new THREE.MeshLambertMaterial({ color: new THREE.Color(this.config.link.color) });
+            this.linkMaterial = new THREE.LineBasicMaterial({ color: new THREE.Color(this.config.link.color) });
         }
         if (this.config.link.opacity < 1) {
             this.linkMaterial.transparent = true;
@@ -113,15 +113,17 @@ export class SceneBuilder {
         });
         this.scene.add(this.nodes);
         this.links = new THREE.Group();
-        // TODO: optimize – mergeBufferGeometries?
         this.network.graph.forEachLink(link => {
             const pos = this.network.layout.getLinkPosition(link.id);
             const curve = new THREE.LineCurve3(
                 new THREE.Vector3(pos.from.x, pos.from.y, pos.from.z),
                 new THREE.Vector3(pos.to.x, pos.to.y, pos.to.z)
             );
-            const geometry = new THREE.TubeGeometry(curve, 1, this.config.link.thickness, 6);
-            const line = new THREE.Mesh(geometry, this.linkMaterial);
+            const geometry = new THREE.BufferGeometry();
+            const positions = new Float32Array(6);
+            geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            geometry.setDrawRange(0, 2);
+            const line = new THREE.Line(geometry, this.linkMaterial);
             this.links.add(line);
         });
         this.scene.add(this.links);
@@ -187,13 +189,10 @@ export class SceneBuilder {
 
             i = 0;
             this.network.graph.forEachLink(link => {
-                const pos = this.network.layout.getLinkPosition(link.id);
-                const curve = new THREE.LineCurve3(
-                    new THREE.Vector3(pos.from.x, pos.from.y, pos.from.z),
-                    new THREE.Vector3(pos.to.x, pos.to.y, pos.to.z)
-                );
-                const geometry = new THREE.TubeGeometry(curve, 1, this.config.link.thickness, 6);
-                this.links.children[i].geometry.copy(geometry);
+                const newPos = this.network.layout.getLinkPosition(link.id);
+                const pos = this.links.children[i].geometry.attributes.position;
+                pos.array = new Float32Array([newPos.from.x, newPos.from.y, newPos.from.z, newPos.to.x, newPos.to.y, newPos.to.z]);
+                pos.needsUpdate = true;
                 i++;
             });
 

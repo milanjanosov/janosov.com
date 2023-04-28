@@ -25,9 +25,9 @@ const config = {
         },
         link: {
             thickness: .02,
-            // color: '#FF91AF', //hsl(280, 30%, 30%)',
-            startColor: '#FF91AF', //hsl(280, 30%, 30%)',
-            endColor: 'hsl(180, 40%, 20%)',
+            color: '#FF91AF', //hsl(280, 30%, 30%)',
+            // startColor: '#FF91AF', //hsl(280, 30%, 30%)',
+            // endColor: 'hsl(180, 40%, 20%)',
             opacity: .75,
         },
     }
