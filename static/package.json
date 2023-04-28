@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "esbuild": "^0.17.9",
+    "ngraph.forcelayout": "^3.3.1",
+    "ngraph.graph": "^20.0.1",
+    "stats.js": "^0.17.0",
+    "three": "^0.149.0"
+  },
+  "scripts": {
+    "watch": "./node_modules/esbuild/bin/esbuild --bundle javascript/app.js --outfile=javascript/bundle.js --watch"
+  }
+}

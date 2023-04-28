@@ -13,13 +13,10 @@ a {
 }
 
 body {
-    background-color: hsla(0, 0%, 15%, .5);
-    backdrop-filter: brightness(60%);
     background-image: url(../images/background.jpeg);
     background-position: top center;
     color: var(--default-text-color);
     min-height: 100vh;
-    -webkit-backdrop-filter: brightness(60%);
 }
 
 h1,
@@ -309,6 +306,25 @@ h1 {
         color: var(--dark-background-color);
     }
 
+}
+
+.background {
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+
+    &__overlay {
+        background-color: var(--background-overlay-color);
+        height: 100vh;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        z-index: 0;
+    }
 }
 
 // debug stuff
