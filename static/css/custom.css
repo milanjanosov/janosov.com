@@ -8,6 +8,8 @@
   --default-text-color: hsla(0, 0%, 95%, 1);
   --light-background-color: hsla(0, 0%, 35%, .9);
   --link-color: hsla(221, 100%, 83%, 1);
+  --text-background-color: hsla(0, 0%, 35%, .5);
+  --sidebar-level: 100;
 }
 
 *,
@@ -38,7 +40,7 @@ h6 {
 
 h1 {
   line-height: 1.5;
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
 .lead {
@@ -68,6 +70,7 @@ h1 {
 
 .sidebar {
   background: var(--dark-background-color);
+  z-index: var(--sidebar-level);
 }
 .sidebar-about h1 {
   line-height: 2rem;
@@ -290,4 +293,24 @@ h1 {
   top: 0;
   width: 100%;
   z-index: 0;
+}
+
+.appearances ul {
+  line-height: 2;
+  list-style-type: none;
+  padding: 0;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.bio .content {
+  animation: 1s cubic-bezier(0, 0, 0.2, 1) slidein;
+  background: var(--text-background-color);
+  min-height: 100vh;
 }/*# sourceMappingURL=custom.css.map */

@@ -30,7 +30,7 @@ h6 {
 
 h1 {
     line-height: 1.5;
-    margin-top: 1rem;
+    margin-top: 0;
 }
 
 // class overrides
@@ -61,6 +61,7 @@ h1 {
 
 .sidebar {
     background: var(--dark-background-color);
+    z-index: var(--sidebar-level);
 
     &-about {
         h1 {
@@ -324,6 +325,32 @@ h1 {
         top: 0;
         width: 100%;
         z-index: 0;
+    }
+}
+
+// page-specific styles
+
+.appearances {
+    ul {
+        line-height: 2;
+        list-style-type: none;
+        padding: 0;
+    }
+}
+
+.bio {
+    @keyframes slidein {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    .content {
+        animation: 1s cubic-bezier(0, 0, .2, 1) slidein;
+        background: var(--text-background-color);
+        min-height: 100vh;
     }
 }
 

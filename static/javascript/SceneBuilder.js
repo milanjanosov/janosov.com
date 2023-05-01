@@ -13,6 +13,7 @@ export class SceneBuilder {
         this.network = network;
         this.animationStep = 0;
         this.maxStep = 200;
+        this.start = null;
         this.scene = new THREE.Scene();
         const brightLightColor = new THREE.Color('hsl(0, 0%, 100%)');
         const lightColor = new THREE.Color('hsl(0, 0%, 90%)');
@@ -192,26 +193,34 @@ export class SceneBuilder {
     }
 
     update() {
-        this.stats?.begin()
-        if (this.animationStep < this.maxStep) {
-            let i = 0;
-            this.network.layout.step();
+        if (this.start === null) {
+            this.start = Date.now();
+        }
+        if (Date.now() - this.start > 2000) {
+            this.stats?.begin()
+            if (this.animationStep < this.maxStep) {
+                let i = 0;
+                this.network.layout.step();
 
-            this.network.graph.forEachNode(node => {
-                this.nodes.children[i].position.copy(this.network.layout.getNodePosition(node.id));
-                i++;
-            });
+                this.network.graph.forEachNode(node => {
+                    this.nodes.children[i].position.copy(this.network.layout.getNodePosition(node.id));
+                    i++;
+                });
 
-            i = 0;
-            this.network.graph.forEachLink(link => {
-                const newPos = this.network.layout.getLinkPosition(link.id);
-                const pos = this.links.children[i].geometry.attributes.position;
-                pos.array = new Float32Array([newPos.from.x, newPos.from.y, newPos.from.z, newPos.to.x, newPos.to.y, newPos.to.z]);
-                pos.needsUpdate = true;
-                i++;
-            });
+                i = 0;
+                this.network.graph.forEachLink(link => {
+                    const newPos = this.network.layout.getLinkPosition(link.id);
+                    const pos = this.links.children[i].geometry.attributes.position;
+                    pos.array = new Float32Array([
+                        newPos.from.x, newPos.from.y, newPos.from.z,
+                        newPos.to.x, newPos.to.y, newPos.to.z
+                    ]);
+                    pos.needsUpdate = true;
+                    i++;
+                });
 
-            this.animationStep++;
+                this.animationStep++;
+            }
         }
         this.orbitControls.update();
         this.renderer.render(this.scene, this.camera);

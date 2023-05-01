@@ -1,5 +1,5 @@
 const config = {
-    path: 'data/dogs.json',
+    path: '../data/dogs.json',
     scene: {
         root: '.background',
         // debug: true,

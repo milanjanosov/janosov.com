@@ -2,18 +2,18 @@
 title: "Appearances"
 menu: main
 weight: 2
+networkConfig: 'config2.js'
+bodyClass: appearances
 ---
 
 ## Scientific publications
 
 - on [Google Scholar](https://scholar.google.com/citations?hl=en&user=5_ep83MAAAAJ&view_op=list_works&sortby=pubdate)
-
 - on [ResearchGate](https://www.researchgate.net/profile/Milan-Janosov-2)
 ​
 ## Populizers
 
 - on [Nightingale](https://nightingaledvs.com/author/milan-janosov/)
-
 - on [Qubit](https://qubit.hu/author/janosovm)
 ​
 ## Conferences, workshops

@@ -1,5 +1,5 @@
 {{ partial "head.html" . }}
-  <body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+  <body class="{{ .Site.Params.themeColor }} {{ .Params.bodyClass }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
   {{ partial "sidebar.html" . }}
     <main class="content container">
     {{ block "main" . -}}{{- end }}
@@ -18,8 +18,8 @@
     });
   </script>
   {{ if .Params.networkConfig }}
-    <script src="javascript/{{ .Params.networkConfig }}"></script>
-    <script src="javascript/bundle.js"></script>
+    <script src="{{ .Site.BaseURL }}javascript/{{ .Params.networkConfig }}"></script>
+    <script src="{{ .Site.BaseURL }}javascript/bundle.js"></script>
     <div class="background">
       <div class="background__overlay"></div>
     </div>
