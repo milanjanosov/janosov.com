@@ -228,11 +228,6 @@ h1 {
   padding-bottom: 3rem;
   position: relative;
 }
-@media (min-width: 64rem) {
-  .service {
-    width: calc((100% - 1rem) / 2);
-  }
-}
 .service__title {
   font-size: 1.25rem;
   line-height: 2rem;

@@ -258,10 +258,6 @@ h1 {
     padding-bottom: 3rem;
     position: relative;
 
-    @media (min-width: 64rem) {
-        width: calc((100% - 1rem) / 2);
-    }
-
     &__title {
         font-size: 1.25rem;
         line-height: 2rem;
