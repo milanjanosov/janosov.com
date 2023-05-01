@@ -18,20 +18,24 @@ export class SceneBuilder {
         const lightColor = new THREE.Color('hsl(0, 0%, 90%)');
         this.scene.background = new THREE.Color(this.config.backgroundColor);
 
-        this.camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, .1, 1000);
+        this.renderer = new THREE.WebGLRenderer({ antialias: true });
+        this.renderer.setPixelRatio(window.devicePixelRatio);
+        this.renderer.physicallyCorrectLights = true;
+        if (typeof this.config.root !== 'undefined') {
+            const root = document.querySelector(this.config.root);
+            const rect = root.getBoundingClientRect();
+            this.renderer.setSize(rect.width, rect.height);
+            console.log(rect.width, rect.height);
+            root.appendChild(this.renderer.domElement);
+            this.camera = new THREE.PerspectiveCamera(45, rect.width / rect.height, .1, 1000);
+        } else {
+            this.renderer.setSize(window.innerWidth, window.innerHeight);
+            document.body.appendChild(this.renderer.domElement);
+            this.camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, .1, 1000);
+        }
         this.camera.position.set(0, 0, -35);
         this.camera.lookAt(0, 0, 0);
         this.scene.add(this.camera);
-
-        this.renderer = new THREE.WebGLRenderer({ antialias: true });
-        this.renderer.setPixelRatio(window.devicePixelRatio);
-        this.renderer.setSize(window.innerWidth, window.innerHeight);
-        this.renderer.physicallyCorrectLights = true;
-        if (typeof this.config.root !== 'undefined') {
-            document.querySelector(this.config.root).appendChild(this.renderer.domElement);
-        } else {
-            document.body.appendChild(this.renderer.domElement);
-        }
 
         const ambientLight = new THREE.AmbientLight(lightColor, .5);
         this.camera.add(ambientLight);

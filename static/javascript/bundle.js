@@ -22556,19 +22556,24 @@ function InsertStackElement(node, body) {
       const brightLightColor = new Color("hsl(0, 0%, 100%)");
       const lightColor = new Color("hsl(0, 0%, 90%)");
       this.scene.background = new Color(this.config.backgroundColor);
-      this.camera = new PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1e3);
+      this.renderer = new WebGLRenderer({ antialias: true });
+      this.renderer.setPixelRatio(window.devicePixelRatio);
+      this.renderer.physicallyCorrectLights = true;
+      if (typeof this.config.root !== "undefined") {
+        const root = document.querySelector(this.config.root);
+        const rect = root.getBoundingClientRect();
+        this.renderer.setSize(rect.width, rect.height);
+        console.log(rect.width, rect.height);
+        root.appendChild(this.renderer.domElement);
+        this.camera = new PerspectiveCamera(45, rect.width / rect.height, 0.1, 1e3);
+      } else {
+        this.renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(this.renderer.domElement);
+        this.camera = new PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1e3);
+      }
       this.camera.position.set(0, 0, -35);
       this.camera.lookAt(0, 0, 0);
       this.scene.add(this.camera);
-      this.renderer = new WebGLRenderer({ antialias: true });
-      this.renderer.setPixelRatio(window.devicePixelRatio);
-      this.renderer.setSize(window.innerWidth, window.innerHeight);
-      this.renderer.physicallyCorrectLights = true;
-      if (typeof this.config.root !== "undefined") {
-        document.querySelector(this.config.root).appendChild(this.renderer.domElement);
-      } else {
-        document.body.appendChild(this.renderer.domElement);
-      }
       const ambientLight = new AmbientLight(lightColor, 0.5);
       this.camera.add(ambientLight);
       const hsLight = new HemisphereLight(lightColor, lightColor, 1);
@@ -22773,7 +22778,9 @@ function InsertStackElement(node, body) {
   };
 
   // javascript/app.js
-  var threeDNetwork = new ThreeDNetwork(config);
+  addEventListener("load", () => {
+    const threeDNetwork = new ThreeDNetwork(config);
+  });
 })();
 /*! Bundled license information:
 

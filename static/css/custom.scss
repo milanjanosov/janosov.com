@@ -13,10 +13,9 @@ a {
 }
 
 body {
-    background-image: url(../images/background.jpeg);
-    background-position: top center;
     color: var(--default-text-color);
     min-height: 100vh;
+    background-image: none;
 }
 
 h1,
@@ -309,20 +308,25 @@ h1 {
 }
 
 .background {
-    height: 100vh;
+    height: 100%;
     left: 0;
     position: absolute;
     top: 0;
-    width: 100vw;
+    width: 100%;
     z-index: -1;
+
+    @media (min-width: 48em) {
+        left: 18rem;
+        width: calc(100% - 18rem);
+    }
 
     &__overlay {
         background-color: var(--background-overlay-color);
-        height: 100vh;
+        height: 100%;
         left: 0;
         position: absolute;
         top: 0;
-        width: 100vw;
+        width: 100%;
         z-index: 0;
     }
 }
