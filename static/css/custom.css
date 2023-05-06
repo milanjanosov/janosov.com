@@ -141,7 +141,7 @@ h2 {
 .post-list-item:first-child .post-list-item__summary p {
   margin: 0;
 }
-.post-list-item:first-child .post-list-item__summary p img {
+.post-list-item:first-child .post-list-item__summary img {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
   margin: 0;

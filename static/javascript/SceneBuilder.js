@@ -124,7 +124,7 @@ export class SceneBuilder {
             s.r, s.g, s.b,
             e.r, e.g, e.b
         ]);
-        const this.colorBufferAttribute = new THREE.BufferAttribute(colors, 3);
+        this.colorBufferAttribute = new THREE.BufferAttribute(colors, 3);
         this.network.graph.forEachLink(link => {
             const line = this.createLineForLink(link);
             this.links.add(line);

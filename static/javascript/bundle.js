@@ -22653,6 +22653,17 @@ function InsertStackElement(node, body) {
       });
       this.scene.add(this.nodes);
       this.links = new Group();
+      const s = new Color(this.config.link.startColor);
+      const e = new Color(this.config.link.endColor);
+      const colors = new Float32Array([
+        s.r,
+        s.g,
+        s.b,
+        e.r,
+        e.g,
+        e.b
+      ]);
+      this.colorBufferAttribute = new BufferAttribute(colors, 3);
       this.network.graph.forEachLink((link) => {
         const line = this.createLineForLink(link);
         this.links.add(line);
@@ -22680,17 +22691,7 @@ function InsertStackElement(node, body) {
       const geometry = new BufferGeometry();
       const positions = new Float32Array(6);
       geometry.setAttribute("position", new BufferAttribute(positions, 3));
-      const s = new Color(this.config.link.startColor);
-      const e = new Color(this.config.link.endColor);
-      const colors = new Float32Array([
-        s.r,
-        s.g,
-        s.b,
-        e.r,
-        e.g,
-        e.b
-      ]);
-      geometry.setAttribute("color", new BufferAttribute(colors, 3));
+      geometry.setAttribute("color", this.colorBufferAttribute);
       geometry.setDrawRange(0, 2);
       const linkMaterial = new LineBasicMaterial({
         linewidth: 20,
