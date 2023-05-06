@@ -22654,31 +22654,7 @@ function InsertStackElement(node, body) {
       this.scene.add(this.nodes);
       this.links = new Group();
       this.network.graph.forEachLink((link) => {
-        const pos = this.network.layout.getLinkPosition(link.id);
-        const curve = new LineCurve3(
-          new Vector3(pos.from.x, pos.from.y, pos.from.z),
-          new Vector3(pos.to.x, pos.to.y, pos.to.z)
-        );
-        const geometry = new BufferGeometry();
-        const positions = new Float32Array(6);
-        geometry.setAttribute("position", new BufferAttribute(positions, 3));
-        const s = new Color(this.config.link.startColor);
-        const e = new Color(this.config.link.endColor);
-        const colors = new Float32Array([
-          s.r,
-          s.g,
-          s.b,
-          e.r,
-          e.g,
-          e.b
-        ]);
-        geometry.setAttribute("color", new BufferAttribute(colors, 3));
-        geometry.setDrawRange(0, 2);
-        const linkMaterial = new LineBasicMaterial({
-          linewidth: 20,
-          vertexColors: true
-        });
-        const line = new Line(geometry, linkMaterial);
+        const line = this.createLineForLink(link);
         this.links.add(line);
       });
       this.scene.add(this.links);
@@ -22694,6 +22670,34 @@ function InsertStackElement(node, body) {
         document.body.appendChild(this.stats.dom);
       }
       this.update();
+    }
+    createLineForLink(link) {
+      const pos = this.network.layout.getLinkPosition(link.id);
+      const curve = new LineCurve3(
+        new Vector3(pos.from.x, pos.from.y, pos.from.z),
+        new Vector3(pos.to.x, pos.to.y, pos.to.z)
+      );
+      const geometry = new BufferGeometry();
+      const positions = new Float32Array(6);
+      geometry.setAttribute("position", new BufferAttribute(positions, 3));
+      const s = new Color(this.config.link.startColor);
+      const e = new Color(this.config.link.endColor);
+      const colors = new Float32Array([
+        s.r,
+        s.g,
+        s.b,
+        e.r,
+        e.g,
+        e.b
+      ]);
+      geometry.setAttribute("color", new BufferAttribute(colors, 3));
+      geometry.setDrawRange(0, 2);
+      const linkMaterial = new LineBasicMaterial({
+        linewidth: 20,
+        vertexColors: true
+      });
+      const line = new Line(geometry, linkMaterial);
+      return line;
     }
     makeGeometry() {
       if (this.config.node.geometry === "sphere")
