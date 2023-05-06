@@ -196,7 +196,7 @@ export class SceneBuilder {
         if (this.start === null) {
             this.start = Date.now();
         }
-        if (Date.now() - this.start > 2000) {
+        if (Date.now() - this.start > this.config.initialWait) {
             this.stats?.begin()
             if (this.animationStep < this.maxStep) {
                 let i = 0;

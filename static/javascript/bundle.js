@@ -22730,7 +22730,7 @@ function InsertStackElement(node, body) {
       if (this.start === null) {
         this.start = Date.now();
       }
-      if (Date.now() - this.start > 2e3) {
+      if (Date.now() - this.start > this.config.initialWait) {
         this.stats?.begin();
         if (this.animationStep < this.maxStep) {
           let i = 0;
@@ -22769,7 +22769,8 @@ function InsertStackElement(node, body) {
   // javascript/default.js
   var defaults = {
     physicsSettings: {
-      timeStep: 0.05,
+      timeStep: 0.5,
+      //.05,
       dimensions: 3,
       gravity: -0.1,
       theta: 0.1,
