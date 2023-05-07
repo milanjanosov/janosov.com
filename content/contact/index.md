@@ -6,7 +6,7 @@ weight: 3
 
 <!-- https://formspree.io -->
 
-<form class="contact-form">
+<form class="contact-form" method="POST">
     <div class="contact-form__item contact-form__name">
         <label class="contact-form__label" for="name">Name</label>
         <input class="contact-form__text-input" type="text" name="name" id="name">
@@ -21,7 +21,7 @@ weight: 3
     </div>
     <div class="contact-form__item contact-form__message">
         <label class="contact-form__label" for="message">Message</label>
-        <textarea class="contact-form__message contact-form__textarea"></textarea>
+        <textarea name="message" class="contact-form__message contact-form__textarea"></textarea>
     </div>
     <input type="submit" value="Send" class="contact-form__send button">
 </form>
