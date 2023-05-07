@@ -1,6 +1,6 @@
 export const defaults = {
     physicsSettings: {
-        timeStep: .5, //.05,
+        timeStep: .05,
         dimensions: 3,
         gravity: -0.1,
         theta: .1,

@@ -2,6 +2,7 @@
 title: 'Services'
 menu: main
 weight: 5
+networkConfig: 'config2.js'
 ---
 
 <div class="services">

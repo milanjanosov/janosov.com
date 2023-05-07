@@ -22774,8 +22774,7 @@ function InsertStackElement(node, body) {
   // javascript/default.js
   var defaults = {
     physicsSettings: {
-      timeStep: 0.5,
-      //.05,
+      timeStep: 0.05,
       dimensions: 3,
       gravity: -0.1,
       theta: 0.1,
@@ -22789,7 +22788,8 @@ function InsertStackElement(node, body) {
   var ThreeDNetwork = class {
     constructor(options) {
       const config2 = { ...defaults, ...options };
-      fetch(config2.path).then((response) => response.json()).then((data) => {
+      const path = location.pathname === "/janosov.com/" ? config2.path : `../${config2.path}`;
+      fetch(path).then((response) => response.json()).then((data) => {
         const network = new Network(data, config2.physicsSettings);
         this.sceneBuilder = new SceneBuilder(network, config2.scene);
       });

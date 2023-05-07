@@ -1,5 +1,5 @@
 :root {
-  --background-overlay-color: hsla(0, 0%, 15%, .5);
+  --background-overlay-color: hsla(0, 0%, 5%, .75);
   --border-color: hsla(0, 0%, 45%, 1);
   --border-radius: 5px;
   --button-background: hsla(0, 0%, 35%, .9);
