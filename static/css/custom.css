@@ -23,9 +23,10 @@ a {
 }
 
 body {
-  color: var(--default-text-color);
-  min-height: 100vh;
   background-image: none;
+  color: var(--default-text-color);
+  font-size: 18px;
+  min-height: 100vh;
 }
 
 h1,
@@ -75,6 +76,7 @@ h2 {
 
 .sidebar {
   background: var(--dark-background-color);
+  overflow-y: scroll;
   z-index: var(--sidebar-level);
 }
 .sidebar-about h1 {
@@ -344,4 +346,22 @@ details[open] .service__title {
   animation: 1s cubic-bezier(0, 0, 0.2, 1) slidein;
   background: var(--text-background-color);
   min-height: 100vh;
+}
+
+.image-link {
+  display: inline-block;
+  position: relative;
+}
+.image-link:hover::after {
+  background-color: var(--background-overlay-color);
+  border-radius: var(--border-radius);
+  color: var(--default-text-color);
+  content: "View full image";
+  left: 50%;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }/*# sourceMappingURL=custom.css.map */
