@@ -26,7 +26,6 @@ export class SceneBuilder {
             const root = document.querySelector(this.config.root);
             const rect = root.getBoundingClientRect();
             this.renderer.setSize(rect.width, rect.height);
-            console.log(rect.width, rect.height);
             root.appendChild(this.renderer.domElement);
             this.camera = new THREE.PerspectiveCamera(45, rect.width / rect.height, .1, 1000);
         } else {

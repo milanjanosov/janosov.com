@@ -13,9 +13,10 @@ a {
 }
 
 body {
-    color: var(--default-text-color);
-    min-height: 100vh;
     background-image: none;
+    color: var(--default-text-color);
+    font-size: 18px;
+    min-height: 100vh;
 }
 
 h1,
@@ -66,6 +67,7 @@ h2 {
 
 .sidebar {
     background: var(--dark-background-color);
+    overflow-y: scroll;
     z-index: var(--sidebar-level);
 
     &-about {
