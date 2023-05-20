@@ -7,7 +7,7 @@ networkConfig: 'config2.js'
 
 <!-- https://formspree.io -->
 
-<form class="contact-form" method="POST">
+<form class="contact-form" method="POST" action="https://formspree.io/f/mknaezko">
     <div class="contact-form__item contact-form__name">
         <label class="contact-form__label" for="name">Name</label>
         <input class="contact-form__text-input" type="text" name="name" id="name">
