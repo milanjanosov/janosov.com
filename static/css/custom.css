@@ -75,9 +75,16 @@ h2 {
 }
 
 .sidebar {
+  /* disable scrollbar */
+  /* Safari */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
   background: var(--dark-background-color);
   overflow-y: scroll;
   z-index: var(--sidebar-level);
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
 }
 .sidebar-about h1 {
   line-height: 2rem;
@@ -364,4 +371,20 @@ details[open] .service__title {
   text-align: center;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
+}
+
+.social {
+  -moz-column-gap: 0.25rem;
+       column-gap: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.social__icon {
+  height: 2rem;
+  transition: all 0.2s;
+  width: 2rem;
+}
+.social__icon:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=custom.css.map */

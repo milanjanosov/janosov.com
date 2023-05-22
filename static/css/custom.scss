@@ -66,6 +66,14 @@ h2 {
 }
 
 .sidebar {
+    /* disable scrollbar */
+    /* Safari */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
     background: var(--dark-background-color);
     overflow-y: scroll;
     z-index: var(--sidebar-level);
@@ -403,6 +411,23 @@ details[open] {
         text-align: center;
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
+    }
+}
+
+.social {
+    column-gap: .25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+    &__icon {
+        height: 2rem;
+        transition: all .2s;
+        width: 2rem;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
 

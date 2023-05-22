@@ -1,13 +1,23 @@
-{{ partial "head.html" . }}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"{{with .Site.LanguageCode}} xml:lang="{{.}}" lang="{{.}}"{{end}}>
+  {{ partial "head.html" . }}
   <body class="{{ .Site.Params.themeColor }} {{ .Params.bodyClass }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
   {{ partial "sidebar.html" . }}
-    <main class="content container">
+  <main class="content container">
+    <nav class="social">
+      <a href="https://www.linkedin.com"><img src="{{ site.BaseURL }}images/social/linkedin.png" class="social__icon"></a>
+      <a href="https://www.facebook.com"><img src="{{ site.BaseURL }}images/social/facebook.png" class="social__icon"></a>
+      <a href="https://www.instagram.com"><img src="{{ site.BaseURL }}images/social/instagram.png" class="social__icon"></a>
+      <a href="https://www.twitter.com"><img src="{{ site.BaseURL }}images/social/twitter.png" class="social__icon"></a>
+      <a href="https://www.youtube.com"><img src="{{ site.BaseURL }}images/social/youtube.png" class="social__icon"></a>
+      <a href="https://www.twitch.com"><img src="{{ site.BaseURL }}images/social/twitch.png" class="social__icon"></a>
+    </nav>
     {{ block "main" . -}}{{- end }}
-    </main>
+  </main>
 
-    {{ if not .Site.IsServer }}
-      {{ template "_internal/google_analytics.html" . }}
-    {{ end }}
+  {{ if not .Site.IsServer }}
+    {{ template "_internal/google_analytics.html" . }}
+  {{ end }}
   <script>
     addEventListener('DOMContentLoaded', () => {
       if (location.hash !== '') {
