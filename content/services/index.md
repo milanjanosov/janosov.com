@@ -18,7 +18,7 @@ networkConfig: 'config2.js'
   </details>
     <details class="service">
         <summary class="service__title">Lectures and workshops</summary>
-        <p class="service__description">Now you may book a lecture or workshop covering various areas of data science, focusing on network science and geospatial data. For references, please visit the ‘Appearances’ section. </p>
+        <p class="service__description">Now you may book a lecture or workshop covering various areas of data science, focusing on network science and geospatial data. For references, please visit the <a href="../appearances">‘Appearances’</a> section. </p>
         <a class="service__contact button" href="../contact#lecture-workshop">Ask for details</a>
     </details>
     <details class="service">
