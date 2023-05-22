@@ -78,13 +78,18 @@ h2 {
     overflow-y: scroll;
     z-index: var(--sidebar-level);
 
+    @media (min-width: 48em) {
+        padding-top: 5rem;
+    }
+
     &-about {
         h1 {
-            line-height: 2rem;
+            line-height: 3rem;
             margin-top: 1.6rem;
 
             @media (min-width: 48em) {
                 font-size: 1.25rem;
+                line-height: 2rem;
             }
         }
     }
@@ -120,48 +125,48 @@ h2 {
 
     @media (min-width: 64rem) {
         width: calc((100% - 1rem) / 2);
-    }
 
-    $post: &;
+        $post: &;
 
-    &:first-child {
-        column-gap: 1rem;
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: auto auto 1fr;
-        grid-template-areas: "image title"
-            "image date"
-            "image more";
-        padding: 0;
-        padding-right: 1rem;
-        width: 100%;
+        &:first-child {
+            column-gap: 1rem;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: auto auto 1fr;
+            grid-template-areas: "image title"
+                "image date"
+                "image more";
+            padding: 0;
+            padding-right: 1rem;
+            width: 100%;
 
-        #{$post}__title {
-            grid-area: title;
-            margin-top: 1rem;
-        }
-
-        #{$post}__date {
-            grid-area: date;
-        }
-
-        #{$post}__summary {
-            grid-area: image;
-            margin: 0;
-
-            p {
-                margin: 0;
+            #{$post}__title {
+                grid-area: title;
+                margin-top: 1rem;
             }
 
-            img {
-                border-bottom-right-radius: 0;
-                border-top-right-radius: 0;
-                margin: 0;
+            #{$post}__date {
+                grid-area: date;
             }
-        }
 
-        #{$post}__more {
-            grid-area: more;
+            #{$post}__summary {
+                grid-area: image;
+                margin: 0;
+
+                p {
+                    margin: 0;
+                }
+
+                img {
+                    border-bottom-right-radius: 0;
+                    border-top-right-radius: 0;
+                    margin: 0;
+                }
+            }
+
+            #{$post}__more {
+                grid-area: more;
+            }
         }
     }
 
@@ -373,9 +378,12 @@ details[open] {
     }
 
     ul {
-        line-height: 2;
         list-style-type: none;
         padding: 0;
+
+        @media (min-width: 48em) {
+            line-height: 2;
+        }
     }
 }
 
@@ -418,7 +426,10 @@ details[open] {
     column-gap: .25rem;
     display: flex;
     flex-direction: row;
-    justify-content: right;
+
+    @media (min-width: 48em) {
+        justify-content: right;
+    }
 
     &__icon {
         height: 2rem;
