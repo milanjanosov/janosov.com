@@ -145,6 +145,26 @@ export class SceneBuilder {
         this.update();
     }
 
+    createCurveForLink(link) {
+        const pos = this.network.layout.getLinkPosition(link.id);
+        const from = new THREE.Vector3(pos.from.x, pos.from.y, pos.from.z);
+        const to = new THREE.Vector3(pos.to.x, pos.to.y, pos.to.z);
+        const midpoint = new THREE.Vector3();
+        midpoint.addVectors(from, to).multiplyScalar(0.5);
+        const cp = new THREE.Vector3();
+        cp.addVectors(midpoint, new THREE.Vector3(0, 0, 0)).multiplyScalar(this.config.link.curve);
+        const curve = new THREE.QuadraticBezierCurve3(from, cp, to);
+        const geometry = new THREE.BufferGeometry();
+        geometry.setAttribute('color', this.colorBufferAttribute);
+        const linkMaterial = new THREE.LineBasicMaterial({
+            vertexColors: true,
+        });
+        return new THREE.Line(
+            geometry.setFromPoints(curve.getPoints(10)),
+            linkMaterial
+        );
+    }
+
     createLineForLink(link) {
         const pos = this.network.layout.getLinkPosition(link.id);
         const curve = new THREE.LineCurve3(
