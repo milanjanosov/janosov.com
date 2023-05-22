@@ -367,20 +367,6 @@ details[open] .service__title {
 
 .image-link {
   display: inline-block;
-  position: relative;
-}
-.image-link:hover::after {
-  background-color: var(--background-overlay-color);
-  border-radius: var(--border-radius);
-  color: var(--default-text-color);
-  content: "View full image";
-  left: 50%;
-  margin: 0 auto;
-  padding: 0.5rem 1rem;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
 }
 
 .social {

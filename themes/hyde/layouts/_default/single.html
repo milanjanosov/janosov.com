@@ -3,9 +3,7 @@
   <h1>{{ .Title }}</h1>
   {{/*  <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }} class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>  */}}
     {{ if .Params.coverImg }}
-      <a class="image-link" href="{{ .Site.BaseURL }}images/{{ .Params.coverImg }}_full.png" target="_blank" rel="noopener">
-        <img src="{{ .Site.BaseURL }}images/{{ .Params.coverImg }}_thumbnail.png">
-      </a>
+      <img src="{{ .Site.BaseURL }}images/{{ .Params.coverImg }}_full.png">
     {{ end }}
   {{ .Content }}
 </div>
