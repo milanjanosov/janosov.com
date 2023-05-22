@@ -1,7 +1,7 @@
 ---
 title: 'Services'
 menu: main
-weight: 5
+weight: 3
 networkConfig: 'config2.js'
 ---
 

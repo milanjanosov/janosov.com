@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 menu: main
-weight: 3
+weight: 5
 networkConfig: 'config2.js'
 ---
 

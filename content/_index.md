@@ -1,6 +1,7 @@
 ---
 title: ""
 menu: 'main'
+weight: 1
 networkConfig: 'config2.js'
 bodyClass: bio
 ---

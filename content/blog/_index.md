@@ -1,7 +1,7 @@
 ---
 title: 'Blog'
 menu: main
-weight: 6
+weight: 4
 ---
 
 # Blog
