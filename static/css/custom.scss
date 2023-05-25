@@ -43,7 +43,6 @@ h2 {
 
 .lead {
     font-size: 1rem;
-    margin-top: 1rem;
     text-transform: uppercase;
 
     p {
@@ -79,13 +78,14 @@ h2 {
     z-index: var(--sidebar-level);
 
     @media (min-width: 48em) {
-        padding-top: 5rem;
+        padding-top: 2rem;
     }
 
     &-about {
         h1 {
             line-height: 3rem;
-            margin-top: 1.6rem;
+            margin-bottom: .1rem;
+            margin-top: 1.5rem;
 
             @media (min-width: 48em) {
                 font-size: 1.25rem;
@@ -413,13 +413,13 @@ details[open] {
     flex-direction: row;
 
     @media (min-width: 48em) {
-        justify-content: right;
+        justify-content: center;
     }
 
     &__icon {
-        height: 2rem;
+        height: 1.75rem;
         transition: all .2s;
-        width: 2rem;
+        width: 1.75rem;
 
         &:hover {
             transform: scale(1.1);

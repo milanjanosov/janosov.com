@@ -51,7 +51,6 @@ h2 {
 
 .lead {
   font-size: 1rem;
-  margin-top: 1rem;
   text-transform: uppercase;
 }
 .lead p {
@@ -88,12 +87,13 @@ h2 {
 }
 @media (min-width: 48em) {
   .sidebar {
-    padding-top: 5rem;
+    padding-top: 2rem;
   }
 }
 .sidebar-about h1 {
   line-height: 3rem;
-  margin-top: 1.6rem;
+  margin-bottom: 0.1rem;
+  margin-top: 1.5rem;
 }
 @media (min-width: 48em) {
   .sidebar-about h1 {
@@ -377,13 +377,13 @@ details[open] .service__title {
 }
 @media (min-width: 48em) {
   .social {
-    justify-content: right;
+    justify-content: center;
   }
 }
 .social__icon {
-  height: 2rem;
+  height: 1.75rem;
   transition: all 0.2s;
-  width: 2rem;
+  width: 1.75rem;
 }
 .social__icon:hover {
   transform: scale(1.1);
