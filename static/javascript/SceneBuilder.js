@@ -12,7 +12,6 @@ export class SceneBuilder {
         this.config = config;
         this.network = network;
         this.animationStep = 0;
-        this.maxStep = 200;
         this.start = null;
         this.scene = new THREE.Scene();
         const brightLightColor = new THREE.Color('hsl(0, 0%, 100%)');
@@ -223,7 +222,7 @@ export class SceneBuilder {
         }
         if (Date.now() - this.start > this.config.initialWait) {
             this.stats?.begin()
-            if (this.animationStep < this.maxStep) {
+            if (this.animationStep < this.config.maxStep) {
                 let i = 0;
                 this.network.layout.step();
 

@@ -19810,6 +19810,19 @@ function InsertStackElement(node, body) {
       return this;
     }
   };
+  function QuadraticBezierP0(t, p) {
+    const k = 1 - t;
+    return k * k * p;
+  }
+  function QuadraticBezierP1(t, p) {
+    return 2 * (1 - t) * t * p;
+  }
+  function QuadraticBezierP2(t, p) {
+    return t * t * p;
+  }
+  function QuadraticBezier(t, p0, p1, p2) {
+    return QuadraticBezierP0(t, p0) + QuadraticBezierP1(t, p1) + QuadraticBezierP2(t, p2);
+  }
   var LineCurve3 = class extends Curve {
     constructor(v1 = new Vector3(), v2 = new Vector3()) {
       super();
@@ -19846,6 +19859,47 @@ function InsertStackElement(node, body) {
     }
     fromJSON(json) {
       super.fromJSON(json);
+      this.v1.fromArray(json.v1);
+      this.v2.fromArray(json.v2);
+      return this;
+    }
+  };
+  var QuadraticBezierCurve3 = class extends Curve {
+    constructor(v0 = new Vector3(), v1 = new Vector3(), v2 = new Vector3()) {
+      super();
+      this.isQuadraticBezierCurve3 = true;
+      this.type = "QuadraticBezierCurve3";
+      this.v0 = v0;
+      this.v1 = v1;
+      this.v2 = v2;
+    }
+    getPoint(t, optionalTarget = new Vector3()) {
+      const point = optionalTarget;
+      const v0 = this.v0, v1 = this.v1, v2 = this.v2;
+      point.set(
+        QuadraticBezier(t, v0.x, v1.x, v2.x),
+        QuadraticBezier(t, v0.y, v1.y, v2.y),
+        QuadraticBezier(t, v0.z, v1.z, v2.z)
+      );
+      return point;
+    }
+    copy(source) {
+      super.copy(source);
+      this.v0.copy(source.v0);
+      this.v1.copy(source.v1);
+      this.v2.copy(source.v2);
+      return this;
+    }
+    toJSON() {
+      const data = super.toJSON();
+      data.v0 = this.v0.toArray();
+      data.v1 = this.v1.toArray();
+      data.v2 = this.v2.toArray();
+      return data;
+    }
+    fromJSON(json) {
+      super.fromJSON(json);
+      this.v0.fromArray(json.v0);
       this.v1.fromArray(json.v1);
       this.v2.fromArray(json.v2);
       return this;
@@ -22551,7 +22605,6 @@ function InsertStackElement(node, body) {
       this.config = config2;
       this.network = network;
       this.animationStep = 0;
-      this.maxStep = 200;
       this.start = null;
       this.scene = new Scene();
       const brightLightColor = new Color("hsl(0, 0%, 100%)");
@@ -22564,7 +22617,6 @@ function InsertStackElement(node, body) {
         const root = document.querySelector(this.config.root);
         const rect = root.getBoundingClientRect();
         this.renderer.setSize(rect.width, rect.height);
-        console.log(rect.width, rect.height);
         root.appendChild(this.renderer.domElement);
         this.camera = new PerspectiveCamera(45, rect.width / rect.height, 0.1, 1e3);
       } else {
@@ -22682,6 +22734,25 @@ function InsertStackElement(node, body) {
       }
       this.update();
     }
+    createCurveForLink(link) {
+      const pos = this.network.layout.getLinkPosition(link.id);
+      const from = new Vector3(pos.from.x, pos.from.y, pos.from.z);
+      const to = new Vector3(pos.to.x, pos.to.y, pos.to.z);
+      const midpoint = new Vector3();
+      midpoint.addVectors(from, to).multiplyScalar(0.5);
+      const cp = new Vector3();
+      cp.addVectors(midpoint, new Vector3(0, 0, 0)).multiplyScalar(this.config.link.curve);
+      const curve = new QuadraticBezierCurve3(from, cp, to);
+      const geometry = new BufferGeometry();
+      geometry.setAttribute("color", this.colorBufferAttribute);
+      const linkMaterial = new LineBasicMaterial({
+        vertexColors: true
+      });
+      return new Line(
+        geometry.setFromPoints(curve.getPoints(10)),
+        linkMaterial
+      );
+    }
     createLineForLink(link) {
       const pos = this.network.layout.getLinkPosition(link.id);
       const curve = new LineCurve3(
@@ -22737,7 +22808,7 @@ function InsertStackElement(node, body) {
       }
       if (Date.now() - this.start > this.config.initialWait) {
         this.stats?.begin();
-        if (this.animationStep < this.maxStep) {
+        if (this.animationStep < this.config.maxStep) {
           let i = 0;
           this.network.layout.step();
           this.network.graph.forEachNode((node) => {

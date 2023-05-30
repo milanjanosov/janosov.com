@@ -9,6 +9,7 @@ const config = {
             density: .02,
             color: 'hsl(0, 0%, 20%)',
         },
+        maxStep: 300,
         backgroundColor: 'hsl(0, 0%, 10%)',
         node: {
             geometry: 'sphere', // box, dodecahedron, icosahedron, octahedron, sphere
