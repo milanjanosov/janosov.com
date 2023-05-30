@@ -41,6 +41,12 @@ h2 {
 
 // class overrides
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .lead {
     font-size: 1rem;
     text-transform: uppercase;
@@ -408,9 +414,11 @@ details[open] {
 }
 
 .social {
+    align-items: flex-end;
     column-gap: .25rem;
     display: flex;
     flex-direction: row;
+    flex-grow: 2;
 
     @media (min-width: 48em) {
         justify-content: center;
@@ -418,6 +426,7 @@ details[open] {
 
     &__icon {
         height: 1.75rem;
+        margin: 0;
         transition: all .2s;
         width: 1.75rem;
 
