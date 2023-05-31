@@ -1,7 +1,7 @@
 ---
 title: "#istandwithceu"
 date: 2017-04-03T00:00:00
-coverImg: istandwithceu_v1
+coverImg: istandwithceu
 ---
 
 Twitter analytics and network mapping during the #istandwithceu campaign.

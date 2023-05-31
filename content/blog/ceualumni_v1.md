@@ -1,7 +1,7 @@
 ---
 title: "CEU Alumni Network Visualization"
 date: 2017-04-03T00:00:00
-coverImg: ceualumni
+coverImg: ceualumni_v1
 ---
 
 Building and visualizing the alumni relations of the Central European University.
