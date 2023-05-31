@@ -4,7 +4,7 @@ date: 2022-05-08T00:00:00
 coverImg: prettymaps
 ---
 
-Exploring @PrettyMaps visualizing urban spaces like roadnetworks and POIs.
+Exploring @PrettyMaps visualizing urban spaces like road networks and POIs.
 
 <!--more-->
 

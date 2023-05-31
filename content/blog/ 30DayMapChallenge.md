@@ -4,7 +4,7 @@ date: 2022-11-30T00:00:00
 coverImg: 30DayMapChallenge
 ---
 
-The geospatial analytics world runs the #30DayMapChallenge every November. This year I took part in it the first time.
+The geospatial analytics world runs the #30DayMapChallenge every November. This year I took part in it for the first time.
 
 <!--more-->
 

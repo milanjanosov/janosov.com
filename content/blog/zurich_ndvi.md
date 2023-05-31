@@ -4,7 +4,7 @@ date: 2023-04-01T00:00:00
 coverImg: zurich
 ---
 
-In my blogposts I explored how to use satellite images and image processing to measure the so-called NDVI, the Normalized Difference Vegetation Index.
+In my blogposts, I explored how to use satellite images and image processing to measure the so-called NDVI, the Normalized Difference Vegetation Index.
 
 <!--more-->
 
