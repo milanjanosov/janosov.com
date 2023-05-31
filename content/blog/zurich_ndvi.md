@@ -1,6 +1,6 @@
 ---
 title: "Greenery mapping using satellite images"
-date: 2021-12-23T00:00:00
+date: 2023-04-01T00:00:00
 coverImg: zurich
 ---
 
