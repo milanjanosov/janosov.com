@@ -12,4 +12,6 @@ CEU has a community of almost 15,000 alumni from more than 130 countries from ar
 
 
 I am grateful for the CEU Alumni Relations office for their help in making this project possible.
+
+
 [Read the original article here](https://networkdatascience.ceu.edu/node/529)
