@@ -10,4 +10,5 @@ In my blogposts I explored how to use satellite images and image processing to m
 
 
 [Read more here](https://www.linkedin.com/feed/update/urn:li:activity:7046409434868174848/)
+
 [and here](https://www.linkedin.com/feed/update/urn:li:activity:7048217145398206464/)
