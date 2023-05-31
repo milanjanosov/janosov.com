@@ -1,5 +1,5 @@
 ---
-title: "Greenery mapping using satellite images"
+title: "Visualizing Urban Spaces"
 date: 2022-05-08T00:00:00
 coverImg: prettymaps
 ---

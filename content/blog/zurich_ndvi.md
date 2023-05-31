@@ -1,5 +1,5 @@
 ---
-title: "Greenery mapping using satellite images"
+title: "Greenery Mapping Using Satellite Images"
 date: 2023-04-01T00:00:00
 coverImg: zurich
 ---
