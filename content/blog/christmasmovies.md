@@ -12,4 +12,4 @@ For this, I collected all the movies from IMDb that contain the keyword Christma
 
 First, I compared the movies based on their popularity (number of votes on IMDb) and listed the Top 20 in Figure 2. The figure shows that the IMDb community certainly thinks “Die Hard” is a Christmas movie with its ~740k votes, while the old-time classic “Home Alone” only catches the 5th position on the list. Surprisingly, none of the top three movies won an Oscar (although they were nominated). Out of the 20 movies, 11 were nominated for the prestigious award, and 4 won...
 
-[Read the rest in Nightingale here](https://networkdatascience.ceu.edu/node/544)
+[Read the rest here](https://networkdatascience.ceu.edu/node/544)

@@ -1,16 +1,24 @@
 ---
-title: "Elites, communities and the limited benefits of mentorship in electronic music"
-date: 2020-02-21T00:00:00
-coverImg: djnetwork.png
+title: "Success and luck in creative careers"
+date: 2020-12-01T00:00:00
+coverImg: luckpaper.png
 ---
 
-In this paper I explored the collaboration patterns of the most popular DJs ever featured in the DJ Mag's Top 100, and contrasted their network patterns to their success. The paper was published in Nature's Scientific Reports.
+Quantifying the role of luck in creative success from film to science by analyzing hundreds of thousands of career trajectory time series, and linking it to the underlying collaboration networks. Work published in EPJ Data Science, featured in the [New Scientist](https://www.newscientist.com/article/2217628-around-half-of-your-chances-of-career-success-comes-down-to-sheer-luck/) and [The Times](https://thetimes.com.au/world/13371-8-surprising-things-data-science-has-revealed-about-us-over-the-past-decade).
 
 <!--more-->
 
-While the emergence of success in creative professions, such as music, has been studied extensively, the link between individual success and collaboration is not yet fully uncovered. Here we aim to fill this gap by analyzing longitudinal data on the co-releasing and mentoring patterns of popular electronic music artists appearing in the annual Top 100 ranking of DJ Magazine. We find that while this ranking list of popularity publishes 100 names, only the top 20 is stable over time, showcasing a lock-in effect on the electronic music elite. Based on the temporal co-release network of top musicians, we extract a diverse community structure characterizing the electronic music industry. These groups of artists are temporally segregated, sequentially formed around leading musicians, and represent changes in musical genres. We show that a major driving force behind the formation of music communities is mentorship: around half of musicians entering the top 100 have been mentored by current leading figures before they entered the list. We also find that mentees are unlikely to break into the top 20, yet have much higher expected best ranks than those who were not mentored. This implies that mentorship helps rising talents, but becoming an all-time star requires more. Our results provide insights into the intertwined roles of success and collaboration in electronic music, highlighting the mechanisms shaping the formation and landscape of artistic elites in electronic music....
+Luck is considered a crucial ingredient to achieve impact in all creative domains, despite their diversity. For instance, in science, the movie industry, music, and art, the occurrence of the highest impact work and a hot streak within a creative career are very difficult to predict. Are there domains that are more prone to luck than others? Here, we provide new insights on the role of randomness in impact in creative careers in two ways: (i) we systematically untangle luck and individual ability to generate impact in the movie, music, and book industries, and in science, and compare the luck factor between these fields; (ii) we show the surprising presence of randomness in the relationship between collaboration networks and timing of career hits. Taken together, our analysis suggests that luck consistently affects career impact across all considered sectors and improves our understanding in pinpointing the key elements in driving success...
 
 
-[Read the original publication here](https://www.nature.com/articles/s41598-020-60055-w)
+[Read the original publication here](https://link.springer.com/content/pdf/10.1140/epjds/s13688-020-00227-w.pdf)
 
-[Read a summary blogpost here](https://networkdatascience.ceu.edu/node/536)
+[Read a summary blogpost here](https://networkdatascience.ceu.edu/node/562 )
+
+
+
+Featured in
+
+- [New Scientist](https://www.newscientist.com/article/2217628-around-half-of-your-chances-of-career-success-comes-down-to-sheer-luck/)
+
+- [The Times](https://thetimes.com.au/world/13371-8-surprising-things-data-science-has-revealed-about-us-over-the-past-decade)
