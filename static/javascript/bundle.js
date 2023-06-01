@@ -22606,6 +22606,9 @@ function InsertStackElement(node, body) {
       this.network = network;
       this.animationStep = 0;
       this.start = null;
+      this.end = null;
+      this.phi = 0.1;
+      this.phiMax = 2;
       this.scene = new Scene();
       const brightLightColor = new Color("hsl(0, 0%, 100%)");
       const lightColor = new Color("hsl(0, 0%, 90%)");
@@ -22642,7 +22645,7 @@ function InsertStackElement(node, body) {
         this.camera,
         this.renderer.domElement
       );
-      this.orbitControls.autoRotate = true;
+      this.orbitControls.autoRotate = false;
       this.orbitControls.addEventListener("start", () => {
         this.orbitControls.autoRotate = false;
       });
@@ -22831,6 +22834,18 @@ function InsertStackElement(node, body) {
             i++;
           });
           this.animationStep++;
+        } else {
+          if (this.end === null) {
+            this.end = Date.now();
+          } else {
+            if (Date.now() - this.end > 1e3) {
+              this.orbitControls.autoRotate = true;
+              this.orbitControls.autoRotateSpeed = this.phi;
+              if (this.phi < this.phiMax) {
+                this.phi += 0.01;
+              }
+            }
+          }
         }
       }
       this.orbitControls.update();

@@ -13,6 +13,9 @@ export class SceneBuilder {
         this.network = network;
         this.animationStep = 0;
         this.start = null;
+        this.end = null;
+        this.phi = .1;
+        this.phiMax = 2;
         this.scene = new THREE.Scene();
         const brightLightColor = new THREE.Color('hsl(0, 0%, 100%)');
         const lightColor = new THREE.Color('hsl(0, 0%, 90%)');
@@ -54,7 +57,7 @@ export class SceneBuilder {
             this.camera,
             this.renderer.domElement
         );
-        this.orbitControls.autoRotate = true;
+        this.orbitControls.autoRotate = false;
         this.orbitControls.addEventListener('start', () => { this.orbitControls.autoRotate = false; });
         this.orbitControls.update();
 
@@ -244,6 +247,18 @@ export class SceneBuilder {
                 });
 
                 this.animationStep++;
+            } else {
+                if (this.end === null) {
+                    this.end = Date.now();
+                } else {
+                    if (Date.now() - this.end > 1000) {
+                        this.orbitControls.autoRotate = true;
+                        this.orbitControls.autoRotateSpeed = this.phi;
+                        if (this.phi < this.phiMax) {
+                            this.phi += .01;
+                        }
+                    }
+                }
             }
         }
         this.orbitControls.update();
