@@ -1,5 +1,5 @@
 ---
-title: "Game of Thrones — Network of the Dragon"
+title: "Functional network map of the companion dog brain"
 date: 2023-03-30T00:00:00
 coverImg: dogbrain
 ---
