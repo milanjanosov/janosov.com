@@ -16,7 +16,7 @@ Earlier research quantified different dimensions of the book industry from vario
 After pinpointing the overall importance of Foundation in Asimov's career, we aim to understand several quantitative characteristics of the novel series itself using language processing and network science. Namely, we study the Foundation series as a set of textual data and discuss elementary statistical aspects, such as the world-frequency distribution and differences between separate books. Then we focus on sentiment analysis and temporal patterns to curate the emotional arcs of Asimov's worlds (different extrasolar planets of the sci-fi series). In the last part of the analysis, we tame the relatedness of Asimov's worlds by constructing a network of worlds connected by semantic similarities - mutually co-mentioned words, providing a network view and descriptive statistics of Asimov's universe. The interactive network can be explored below and on the next figure.
 
 
-[Read the original article here](https://www.researchgate.net/publication/354983143_Asimov's_Foundation_-_turning_a_data_story_into_an_NFT_artwork)
+[Read the original on Researchgate](https://www.researchgate.net/publication/354983143_Asimov's_Foundation_-_turning_a_data_story_into_an_NFT_artwork)
 
 [See the interactive career of Asimov here](http://janosov.hu/1_stemplot.html)
 

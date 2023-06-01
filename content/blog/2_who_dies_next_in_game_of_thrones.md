@@ -4,7 +4,7 @@ date: 2017-06-10T00:00:00
 coverImg: game_of_thrones_network.png
 ---
 
-Machine learning prediction based on network science to predict which characters may meet their ends. Short article featured in GQ, The Economic Times, Futurism, and many more.
+Machine learning prediction based on network science to predict which characters may meet their ends. 
 
 <!--more-->
 
