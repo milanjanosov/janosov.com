@@ -1,6 +1,6 @@
 ---
 title: "CEU Alumni Network Visualization"
-date: 2017-04-03T00:00:00
+date: 2019-06-26T00:00:00
 coverImg: ceualumni_v1
 ---
 
