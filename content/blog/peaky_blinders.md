@@ -1,7 +1,7 @@
 ---
 title: "Is There a Happy Ending for the Peaky Blinders?"
 date: 2022-03-01T00:00:00
-coverImg: peaky_blinders
+coverImg: peaky_blinders.webp
 ---
 The award-winning historical drama series is centered around Birmingham, England, starring a notorious gangster family, the Shelbys with signature haircuts and an unforseeable future - until machine learning gets added to the picture.
 

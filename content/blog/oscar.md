@@ -1,7 +1,7 @@
 ---
 title: "50 Years of Oscars: Acting Success and Collaboration"
 date: 2022-03-30T00:00:00
-coverImg: oscar
+coverImg: oscar.png
 ---
 
 The history of the Academy Awards is full of surprising links and connections - finally mapped out!

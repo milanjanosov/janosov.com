@@ -7,7 +7,8 @@
     <time class="post-list-item__date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
     <div class="post-list-item__summary">
       {{ if .Params.coverImg }}
-        <img class="post-list-item__cover-image" src="{{ .Site.BaseURL }}images/{{ .Params.coverImg }}_thumbnail.png">
+        {{ $img := split .Params.coverImg "." }}
+        <img class="post-list-item__cover-image" src="{{ .Site.BaseURL }}images/{{ index $img 0 }}_thumbnail.{{ index $img 1 }}">
       {{ end }}
     </div>
     <div class="post-list-item__more">

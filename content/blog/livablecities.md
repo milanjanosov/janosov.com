@@ -1,7 +1,7 @@
 ---
 title: "Livable cities’ urban networks"
 date: 2023-01-26T00:00:00
-coverImg: livablecities
+coverImg: livablecities.jpg
 ---
 
 How do urban planning, geospatial data science, data visualization, and ChatGPT connect? This visualization tells it in one image.

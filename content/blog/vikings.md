@@ -1,7 +1,7 @@
 ---
 title: "Building and Visualizing a Social Network through the Vikings’ Example"
 date: 2022-04-26T00:00:00
-coverImg: vikings
+coverImg: vikings.png
 ---
 
 A brief guide on network visualization via the example of the popular fantasy show.

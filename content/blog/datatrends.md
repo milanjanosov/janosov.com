@@ -1,7 +1,7 @@
 ---
 title: "What ChatGPT (and Humans) Say About Data Science Trends"
 date: 2023-03-09T00:00:00
-coverImg: datatrends
+coverImg: datatrends.png
 ---
 
 What will be the greatest trends in data science for this year? My annual survey question from the GPT engine.

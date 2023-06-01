@@ -1,7 +1,7 @@
 ---
 title: "Game of Thrones — Network of the Dragon"
 date: 2022-09-13T00:00:00
-coverImg: fireandblood
+coverImg: fireandblood.png
 ---
 
 Game of Thrones rewind - mapping out the spin-off series by analyzing Goerge R. R. Martin's novel.

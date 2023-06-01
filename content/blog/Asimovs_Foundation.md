@@ -1,7 +1,7 @@
 ---
 title: "Asimov's Foundation - Turning a Data Story into an NFT Artwork"
 date: 2021-09-01T00:00:00
-coverImg: asimov_network
+coverImg: asimov_network.png
 ---
 
 This work shows how data science can transform the famous sci-fi novel series into a network and then an NFT artwork. The full paper is available on ResearchGate and has been featured in TechXplore.

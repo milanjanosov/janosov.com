@@ -1,7 +1,7 @@
 ---
 title: "Visualizing Urban Spaces"
 date: 2022-05-08T00:00:00
-coverImg: prettymaps
+coverImg: prettymaps.jpeg
 ---
 
 Exploring @PrettyMaps visualizing urban spaces like road networks and POIs.

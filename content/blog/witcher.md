@@ -1,7 +1,7 @@
 ---
 title: "A Network Map of The Witcher"
 date: 2021-12-23T00:00:00
-coverImg: witcher
+coverImg: witcher.png
 ---
 
 Building and analyzing the social map of the Witcher combining network science, language processing, and data visualization.

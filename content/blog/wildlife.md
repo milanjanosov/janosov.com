@@ -1,7 +1,7 @@
 ---
 title: "Using Color to Interpret a Complex Network of Threatened Species"
 date: 2023-04-26T00:00:00
-coverImg: wildlife
+coverImg: wildlife.png
 ---
 
 Combining geospatial data science, network science, and the unique wildlife habitat database of the International Union for Conservation of Nature (IUCN) supports wildlife protection policy making.

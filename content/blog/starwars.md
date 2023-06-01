@@ -1,7 +1,7 @@
 ---
 title: "Game of Thrones — Network of the Dragon"
 date: 2023-05-04T00:00:00
-coverImg: starwars
+coverImg: starwars.png
 ---
 
 Its May the 4th, so here comes my traditional StarWars Sith-Jedi co-mention network based on Wookieepedia.
