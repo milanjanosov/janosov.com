@@ -308,6 +308,10 @@ details[open] .service__title {
   transform: perspective(500px) scale3d(1, 1, 1.2) translateZ(5px);
 }
 
+.post-date {
+  color: var(--default-text-color);
+}
+
 .button {
   background: var(--button-background);
   color: var(--default-text-color);
