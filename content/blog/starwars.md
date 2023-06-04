@@ -1,6 +1,6 @@
 ---
 title: "Star Wars — Network Sith and Jedi Masters"
-date: 2023-05-04T00:00:00
+date: 2022-05-04T00:00:00
 coverImg: starwars.png
 ---
 
