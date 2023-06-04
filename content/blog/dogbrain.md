@@ -1,5 +1,5 @@
 ---
-title: "Functional network map of the companion dog brain"
+title: "Functional Network Map of the Companion Dog Brain"
 date: 2023-03-30T00:00:00
 coverImg: dogbrain.jpeg
 ---
