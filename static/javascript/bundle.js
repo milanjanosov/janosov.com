@@ -22607,7 +22607,7 @@ function InsertStackElement(node, body) {
       this.animationStep = 0;
       this.start = null;
       this.end = null;
-      this.phi = 0.1;
+      this.phi = 0.05;
       this.phiMax = 2;
       this.scene = new Scene();
       const brightLightColor = new Color("hsl(0, 0%, 100%)");
@@ -22834,11 +22834,12 @@ function InsertStackElement(node, body) {
             i++;
           });
           this.animationStep++;
-        } else {
+        }
+        if (this.animationStep > this.config.maxStep * 0.8) {
           if (this.end === null) {
             this.end = Date.now();
           } else {
-            if (Date.now() - this.end > 1e3) {
+            if (Date.now() - this.end > 0) {
               this.orbitControls.autoRotate = true;
               this.orbitControls.autoRotateSpeed = this.phi;
               if (this.phi < this.phiMax) {
