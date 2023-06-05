@@ -14,7 +14,7 @@ const config = {
         node: {
             geometry: 'sphere', // box, dodecahedron, icosahedron, octahedron, sphere
             size: .2,
-            color: '#FF91AF', //hsl(160, 50%, 70%)', // #fe369c, 0xfe369c, rgb(100, 210, 0)
+            color: '#01EA01', //hsl(160, 50%, 70%)', // #fe369c, 0xfe369c, rgb(100, 210, 0)
             opacity: 1,
             texture: null,
             // texture: {
