@@ -1,7 +1,7 @@
 ---
-title: "Network Science NFTs And Crypoart"
+title: "The Hungarian Art Network"
 date: 2021-06-14T00:00:00
-coverImg: ludwig.jpg
+coverImg: ludwig.png
 ---
 
 A major part of the BarabasiLab - Hidden Patterns Exhibition at Ludwig Museum Budapest covered the Hungarian Art Network. We published the story behind this network in the book titled 'Élek Mentén'.
