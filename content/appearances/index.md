@@ -6,15 +6,22 @@ networkConfig: 'config2.js'
 bodyClass: appearances
 ---
 
+
+![](talks.png)
+
+
 ## Scientific publications
 
 - on [Google Scholar](https://scholar.google.com/citations?hl=en&user=5_ep83MAAAAJ&view_op=list_works&sortby=pubdate)
 - on [ResearchGate](https://www.researchgate.net/profile/Milan-Janosov-2)
 ​
+
 ## Populizers
 
 - on [Nightingale](https://nightingaledvs.com/author/milan-janosov/)
 - on [Qubit](https://qubit.hu/author/janosovm)
+- on [Behavioural and Social Sciences at Nature](https://socialsciences.nature.com/users/358956-milan-janosov)
+
 ​
 ## Conferences, workshops
 
@@ -52,10 +59,15 @@ bodyClass: appearances
 - 2015 Physics League Across Numerous Countries for Kick-ass Students, Leiden
 - 2014 Physics League Across Numerous Countries for Kick-ass Students, Utrecht
 ​
-## Podcasts​
 
+## Podcasts​, interviews
+
+- 2023 [Budapest ML Forum](https://budapestml.hu/2023/hu/program/workshop-janosov-milan/)
+- 2022 [Digital Hungary](https://www.digitalhungary.hu/interjuk/igy-lesz-egy-koncertelmenybol-nemzetkozi-tudomanyos-publikacio-a-halozatok-segitsegevel-akar-a-jovo-sztar-Dj-it-is-megtalalhatjuk/13070/)
 - 2021 [Ludwig Múzeum](https://open.spotify.com/episode/0EhJFdOqHQsqoCeNQ4mU71?si=WPJbBW0zRR-0TFcxH5JVgA&dl_branch=1&fbclid=IwAR2xf7QLxvj7dGqqYh8qwnbhIJISzIgy4FYyJkvD1gAJq8Nud7Q7Mr8o6XU)
+- 2021 [Hype and Hyper](https://hypeandhyper.com/a-halozattudomany-megjosolhatja-hogy-ki-hal-meg-legkozelebb-a-kedvenc-sorozatodban/)
 - 2021 [Beszélgessünk - Gazsó Orsolyával](https://www.youtube.com/watch?v=qcsXfOJzwDo)
 - 2021 [A Holtidő Médiája](https://open.spotify.com/episode/4cXKv58Y71F0eTmb6dtjxD)
 - 2020 [Szertár](https://open.spotify.com/episode/1XbgobeneJurTFxkW7pdUF?si=eK1HhIn1SWGFkKooyOuVVA&dl_branch=1)
+- 2020 [Primate.hu](https://primate.hu/2020/07/29/interju-janosov-milan-halozatkutato/)
 - 2020 [A Holtidő Médiája](https://open.spotify.com/episode/2xp05POsTji6T43iecigap?si=1wghuRRDQBy_stEt-6OBkg)
