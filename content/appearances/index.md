@@ -12,15 +12,15 @@ bodyClass: appearances
 
 ## Scientific publications
 
-- on [Google Scholar](https://scholar.google.com/citations?hl=en&user=5_ep83MAAAAJ&view_op=list_works&sortby=pubdate)
-- on [ResearchGate](https://www.researchgate.net/profile/Milan-Janosov-2)
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=5_ep83MAAAAJ&view_op=list_works&sortby=pubdate)
+- [ResearchGate](https://www.researchgate.net/profile/Milan-Janosov-2)
 ​
 
-## Populizers
+## Populizer articles
 
-- on [Nightingale](https://nightingaledvs.com/author/milan-janosov/)
-- on [Qubit](https://qubit.hu/author/janosovm)
-- on [Behavioural and Social Sciences at Nature](https://socialsciences.nature.com/users/358956-milan-janosov)
+- [Nightingale](https://nightingaledvs.com/author/milan-janosov/)
+- [Qubit](https://qubit.hu/author/janosovm)
+- [Behavioural and Social Sciences at Nature](https://socialsciences.nature.com/users/358956-milan-janosov)
 
 ​
 ## Selected conferences, workshops
