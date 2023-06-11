@@ -6,7 +6,7 @@ networkConfig: 'config2.js'
 bodyClass: bio
 ---
 
-With a background in physics and biophysics, I earned my PhD in network and data science in 2020. I studied and researched at the [Eötvös Loránd University](http://hal.elte.hu/kutcsop/3/pmwiki.php?n=Home.Research) and the [Central European University](https://networkdatascience.ceu.edu) in Budapest, at the [Barabási Lab](https://www.barabasilab.com) in Boston, and the [Bell Labs](https://social-dynamics.net) in Cambridge. [Forbes 30u30](https://forbes.hu/extra/forbes30-2020/) in 2020. NFT sales contributions on [SuperRare](https://superrare.com/barabasilab) and [Foundation](https://foundation.app/@barabasilab). Alumni at [Eötvös Collegium](https://hu.wikipedia.org/wiki/Eötvös_József_Collegium). Regular columnist at [Qubit](https://qubit.hu/author/janosovm).
+With a background in physics and biophysics, I earned my PhD in network and data science in 2020. I studied and researched at the [Eötvös Loránd University](https://hal.elte.hu/kutcsop/) and the [Central European University](https://networkdatascience.ceu.edu) in Budapest, at the [Barabási Lab](https://www.barabasilab.com) in Boston, and the [Bell Labs](https://social-dynamics.net) in Cambridge. [Forbes 30u30](https://forbes.hu/extra/forbes30-2020/) in 2020. NFT sales contributions on [SuperRare](https://superrare.com/barabasilab) and [Foundation](https://foundation.app/@barabasilab). Alumni at [Eötvös Collegium](https://hu.wikipedia.org/wiki/Eötvös_József_Collegium). Regular columnist at [Qubit](https://qubit.hu/author/janosovm) and the [Data Visualization Society](https://nightingaledvs.com/author/milan-janosov/).
 
 
 
