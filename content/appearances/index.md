@@ -18,12 +18,18 @@ bodyClass: appearances
 ​
 ## Conferences, workshops
 
+- 2023 Budapest Data Science Meet-up
+- 2023 Proptech Hungary, #Keynote #speaker
+- 2023 GenZ Conference - Portfolio.hu
+- 2022 Liszt Institute Brussels, #Invited #speaker
+- 2022 Ideas that Change the World, keynote speaker, West University of Timisoara, Romania
+- 2022 Budapest Start-up Safari
 - 2021 [ELTE Atomoktól a Csillagokig](https://www.youtube.com/watch?v=LRDWvs8tRMY)
 - 2021 [Budapest Business Intelligence Forum, keynote talk](https://budapestbi.hu/2021/)
 - 2021 Media Hungary Cabrio conference, Budapest
 - 2021 [Budapest Start-up Safari](https://vimeo.com/540658896)
 - 2021 Budapest Machine Learning Forum
-- 2021 Manning Graph Data Science, Online
+- 2021 Manning Graph Data Science Conference, Online
 - 2021 FabLab Seminar series, Timisoara
 - 2020 Budapest Business Intelligence Forum
 - 2020 Internet Hungary, Budapest
