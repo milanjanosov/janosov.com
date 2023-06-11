@@ -23,7 +23,7 @@ bodyClass: appearances
 - on [Behavioural and Social Sciences at Nature](https://socialsciences.nature.com/users/358956-milan-janosov)
 
 ​
-## Conferences, workshops
+## Selected conferences, workshops
 
 - 2023 Budapest Data Science Meet-up
 - 2023 Proptech Hungary, #Keynote #speaker
@@ -32,11 +32,11 @@ bodyClass: appearances
 - 2022 Ideas that Change the World, keynote speaker, West University of Timisoara, Romania
 - 2022 Budapest Start-up Safari
 - 2021 [ELTE Atomoktól a Csillagokig](https://www.youtube.com/watch?v=LRDWvs8tRMY)
-- 2021 [Budapest Business Intelligence Forum, keynote talk](https://budapestbi.hu/2021/)
+- 2021 Budapest Business Intelligence Forum, keynote talk
 - 2021 Media Hungary Cabrio conference, Budapest
-- 2021 [Budapest Start-up Safari](https://vimeo.com/540658896)
+- 2021 Budapest Start-up Safari
 - 2021 Budapest Machine Learning Forum
-- 2021 Manning Graph Data Science Conference, Online
+- 2021 [Manning Graph Data Science Conference](https://www.youtube.com/watch?v=tghJ8pPGYW8)
 - 2021 FabLab Seminar series, Timisoara
 - 2020 Budapest Business Intelligence Forum
 - 2020 Internet Hungary, Budapest
