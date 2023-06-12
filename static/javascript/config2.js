@@ -9,12 +9,13 @@ const config = {
             density: .02,
             color: 'hsl(0, 0%, 20%)',
         },
+        // animate: false,
         maxStep: 300,
         backgroundColor: 'hsl(0, 0%, 10%)',
         node: {
             geometry: 'sphere', // box, dodecahedron, icosahedron, octahedron, sphere
             size: .2,
-            color: '#01EA01', //hsl(160, 50%, 70%)', // #fe369c, 0xfe369c, rgb(100, 210, 0)
+            color: '#01EA01', // hsl(160, 50%, 70%), #fe369c, 0xfe369c, rgb(100, 210, 0)
             opacity: 1,
             texture: null,
             // texture: {
@@ -27,8 +28,8 @@ const config = {
         },
         link: {
             thickness: 1,
-            // color: '#FF91AF', //hsl(280, 30%, 30%)',
-            startColor: 'white', // '#FF91AF', //hsl(280, 30%, 30%)',
+            // color: '#FF91AF', // hsl(280, 30%, 30%)
+            startColor: 'white', // #FF91AF,'hsl(280, 30%, 30%)
             endColor: 'hsl(180, 40%, 20%)',
             opacity: .75,
         },

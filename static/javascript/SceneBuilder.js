@@ -9,7 +9,7 @@ import Stats from 'stats.js';
 
 export class SceneBuilder {
     constructor(network, config) {
-        this.config = config;
+        this.config = { ...{ animate: true }, ...config };
         this.network = network;
         this.animationStep = 0;
         this.start = null;
@@ -57,7 +57,7 @@ export class SceneBuilder {
             this.camera,
             this.renderer.domElement
         );
-        this.orbitControls.autoRotate = false;
+        this.orbitControls.autoRotate = !this.config.animate;
         this.orbitControls.addEventListener('start', () => { this.orbitControls.autoRotate = false; });
         this.orbitControls.update();
 
@@ -144,7 +144,33 @@ export class SceneBuilder {
             this.stats.showPanel(0);
             document.body.appendChild(this.stats.dom);
         }
+        this.initNetwork();
         this.update();
+    }
+
+    initNetwork() {
+        if (this.config.animate) return;
+        for (let step = 0; step < this.config.maxStep; step++) {
+            let i = 0;
+            this.network.layout.step();
+
+            this.network.graph.forEachNode(node => {
+                this.nodes.children[i].position.copy(this.network.layout.getNodePosition(node.id));
+                i++;
+            });
+
+            i = 0;
+            this.network.graph.forEachLink(link => {
+                const newPos = this.network.layout.getLinkPosition(link.id);
+                const pos = this.links.children[i].geometry.attributes.position;
+                pos.array = new Float32Array([
+                    newPos.from.x, newPos.from.y, newPos.from.z,
+                    newPos.to.x, newPos.to.y, newPos.to.z
+                ]);
+                pos.needsUpdate = true;
+                i++;
+            });
+        }
     }
 
     createCurveForLink(link) {
@@ -223,40 +249,42 @@ export class SceneBuilder {
         if (this.start === null) {
             this.start = Date.now();
         }
-        if (Date.now() - this.start > this.config.initialWait) {
-            this.stats?.begin()
-            if (this.animationStep < this.config.maxStep) {
-                let i = 0;
-                this.network.layout.step();
+        if (this.config.animate) {
+            if (Date.now() - this.start > this.config.initialWait) {
+                this.stats?.begin()
+                if (this.animationStep < this.config.maxStep) {
+                    let i = 0;
+                    this.network.layout.step();
 
-                this.network.graph.forEachNode(node => {
-                    this.nodes.children[i].position.copy(this.network.layout.getNodePosition(node.id));
-                    i++;
-                });
+                    this.network.graph.forEachNode(node => {
+                        this.nodes.children[i].position.copy(this.network.layout.getNodePosition(node.id));
+                        i++;
+                    });
 
-                i = 0;
-                this.network.graph.forEachLink(link => {
-                    const newPos = this.network.layout.getLinkPosition(link.id);
-                    const pos = this.links.children[i].geometry.attributes.position;
-                    pos.array = new Float32Array([
-                        newPos.from.x, newPos.from.y, newPos.from.z,
-                        newPos.to.x, newPos.to.y, newPos.to.z
-                    ]);
-                    pos.needsUpdate = true;
-                    i++;
-                });
+                    i = 0;
+                    this.network.graph.forEachLink(link => {
+                        const newPos = this.network.layout.getLinkPosition(link.id);
+                        const pos = this.links.children[i].geometry.attributes.position;
+                        pos.array = new Float32Array([
+                            newPos.from.x, newPos.from.y, newPos.from.z,
+                            newPos.to.x, newPos.to.y, newPos.to.z
+                        ]);
+                        pos.needsUpdate = true;
+                        i++;
+                    });
 
-                this.animationStep++;
-            }
-            if (this.animationStep > this.config.maxStep * .8) {
-                if (this.end === null) {
-                    this.end = Date.now();
-                } else {
-                    if (Date.now() - this.end > 0) {
-                        this.orbitControls.autoRotate = true;
-                        this.orbitControls.autoRotateSpeed = this.phi;
-                        if (this.phi < this.phiMax) {
-                            this.phi += .01;
+                    this.animationStep++;
+                }
+                if (this.animationStep > this.config.maxStep * .8) {
+                    if (this.end === null) {
+                        this.end = Date.now();
+                    } else {
+                        if (Date.now() - this.end > 0) {
+                            this.orbitControls.autoRotate = true;
+                            this.orbitControls.autoRotateSpeed = this.phi;
+                            if (this.phi < this.phiMax) {
+                                this.phi += .01;
+                            }
                         }
                     }
                 }

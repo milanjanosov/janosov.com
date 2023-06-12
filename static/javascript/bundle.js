@@ -22602,7 +22602,7 @@ function InsertStackElement(node, body) {
   var import_stats = __toESM(require_stats_min());
   var SceneBuilder = class {
     constructor(network, config2) {
-      this.config = config2;
+      this.config = { ...{ animate: true }, ...config2 };
       this.network = network;
       this.animationStep = 0;
       this.start = null;
@@ -22645,7 +22645,7 @@ function InsertStackElement(node, body) {
         this.camera,
         this.renderer.domElement
       );
-      this.orbitControls.autoRotate = false;
+      this.orbitControls.autoRotate = !this.config.animate;
       this.orbitControls.addEventListener("start", () => {
         this.orbitControls.autoRotate = false;
       });
@@ -22735,7 +22735,35 @@ function InsertStackElement(node, body) {
         this.stats.showPanel(0);
         document.body.appendChild(this.stats.dom);
       }
+      this.initNetwork();
       this.update();
+    }
+    initNetwork() {
+      if (this.config.animate)
+        return;
+      for (let step = 0; step < this.config.maxStep; step++) {
+        let i = 0;
+        this.network.layout.step();
+        this.network.graph.forEachNode((node) => {
+          this.nodes.children[i].position.copy(this.network.layout.getNodePosition(node.id));
+          i++;
+        });
+        i = 0;
+        this.network.graph.forEachLink((link) => {
+          const newPos = this.network.layout.getLinkPosition(link.id);
+          const pos = this.links.children[i].geometry.attributes.position;
+          pos.array = new Float32Array([
+            newPos.from.x,
+            newPos.from.y,
+            newPos.from.z,
+            newPos.to.x,
+            newPos.to.y,
+            newPos.to.z
+          ]);
+          pos.needsUpdate = true;
+          i++;
+        });
+      }
     }
     createCurveForLink(link) {
       const pos = this.network.layout.getLinkPosition(link.id);
@@ -22809,41 +22837,43 @@ function InsertStackElement(node, body) {
       if (this.start === null) {
         this.start = Date.now();
       }
-      if (Date.now() - this.start > this.config.initialWait) {
-        this.stats?.begin();
-        if (this.animationStep < this.config.maxStep) {
-          let i = 0;
-          this.network.layout.step();
-          this.network.graph.forEachNode((node) => {
-            this.nodes.children[i].position.copy(this.network.layout.getNodePosition(node.id));
-            i++;
-          });
-          i = 0;
-          this.network.graph.forEachLink((link) => {
-            const newPos = this.network.layout.getLinkPosition(link.id);
-            const pos = this.links.children[i].geometry.attributes.position;
-            pos.array = new Float32Array([
-              newPos.from.x,
-              newPos.from.y,
-              newPos.from.z,
-              newPos.to.x,
-              newPos.to.y,
-              newPos.to.z
-            ]);
-            pos.needsUpdate = true;
-            i++;
-          });
-          this.animationStep++;
-        }
-        if (this.animationStep > this.config.maxStep * 0.8) {
-          if (this.end === null) {
-            this.end = Date.now();
-          } else {
-            if (Date.now() - this.end > 0) {
-              this.orbitControls.autoRotate = true;
-              this.orbitControls.autoRotateSpeed = this.phi;
-              if (this.phi < this.phiMax) {
-                this.phi += 0.01;
+      if (this.config.animate) {
+        if (Date.now() - this.start > this.config.initialWait) {
+          this.stats?.begin();
+          if (this.animationStep < this.config.maxStep) {
+            let i = 0;
+            this.network.layout.step();
+            this.network.graph.forEachNode((node) => {
+              this.nodes.children[i].position.copy(this.network.layout.getNodePosition(node.id));
+              i++;
+            });
+            i = 0;
+            this.network.graph.forEachLink((link) => {
+              const newPos = this.network.layout.getLinkPosition(link.id);
+              const pos = this.links.children[i].geometry.attributes.position;
+              pos.array = new Float32Array([
+                newPos.from.x,
+                newPos.from.y,
+                newPos.from.z,
+                newPos.to.x,
+                newPos.to.y,
+                newPos.to.z
+              ]);
+              pos.needsUpdate = true;
+              i++;
+            });
+            this.animationStep++;
+          }
+          if (this.animationStep > this.config.maxStep * 0.8) {
+            if (this.end === null) {
+              this.end = Date.now();
+            } else {
+              if (Date.now() - this.end > 0) {
+                this.orbitControls.autoRotate = true;
+                this.orbitControls.autoRotateSpeed = this.phi;
+                if (this.phi < this.phiMax) {
+                  this.phi += 0.01;
+                }
               }
             }
           }
