@@ -1,7 +1,7 @@
 ---
 title: "Measuring the Impact of Urban Innovation Districts"
 date: 2021-11-11T00:00:00
-coverImg: jrc_districts.jpeg
+coverImg: jrc_districts.png
 ---
 
 The concept of 15-minute cities, and urban accessibility, are of major importance in today's urban planning. Additionally, also a domain where network science, data science, and geospatial analytics all meet - hence, the nice maps, and useful applications.
