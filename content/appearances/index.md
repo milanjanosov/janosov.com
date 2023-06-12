@@ -26,13 +26,13 @@ bodyClass: appearances
 ## Selected conferences, workshops
 
 - 2023 Budapest Data Science Meet-up
-- 2023 Proptech Hungary, #Keynote #speaker
+- 2023 Proptech Hungary, *Keynote speaker*
 - 2023 GenZ Conference - Portfolio.hu
-- 2022 Liszt Institute Brussels, #Invited #speaker
-- 2022 Ideas that Change the World, keynote speaker, West University of Timisoara, Romania
+- 2022 Liszt Institute Brussels, *Invited #peaker*
+- 2022 Ideas that Change the World, *Keynote speaker*, West University of Timisoara, Romania
 - 2022 Budapest Start-up Safari
 - 2021 [ELTE Atomoktól a Csillagokig](https://www.youtube.com/watch?v=LRDWvs8tRMY)
-- 2021 Budapest Business Intelligence Forum, keynote talk
+- 2021 Budapest Business Intelligence Forum, *Keynote speaker*
 - 2021 Media Hungary Cabrio conference, Budapest
 - 2021 Budapest Start-up Safari
 - 2021 Budapest Machine Learning Forum
