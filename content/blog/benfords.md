@@ -1,6 +1,6 @@
 ---
 title: "Benford's law - Tested"
-date: 2023-04-12T00:00:00
+date: 2023-03-30T00:00:00
 coverImg: benfords.png
 ---
 

@@ -26,9 +26,9 @@ bodyClass: appearances
 ## Selected conferences, workshops
 
 - 2023 Budapest Data Science Meet-up
-- 2023 Proptech Hungary, *Keynote speaker*
+- 2023 Proptech Hungary, **Keynote speaker**
 - 2023 GenZ Conference - Portfolio.hu
-- 2022 Liszt Institute Brussels, *Invited #peaker*
+- 2022 Liszt Institute Brussels, *Invited speaker*
 - 2022 Ideas that Change the World, *Keynote speaker*, West University of Timisoara, Romania
 - 2022 CODEX NFT Forum Budapest
 - 2022 [Genz and Sportmarketing](https://sportmarketingtagozat.hu/hirek/unlocking-genz-uj-era-a-sportban-nevvel-szakmai-delutant-szervezett-a-mmsz-sportmarketing-tagozata/)
