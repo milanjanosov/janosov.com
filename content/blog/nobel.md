@@ -1,6 +1,6 @@
 ---
 title: "Mapping out the Nobel Network"
-date: 2022-02-10T00:00:00
+date: 2023-02-10T00:00:00
 coverImg: nobel.png
 ---
 
