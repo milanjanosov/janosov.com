@@ -4,7 +4,7 @@ date: 2023-03-14T00:00:00
 coverImg: piday.png
 ---
 
-March 14, or 3/14, is also called International Pi Day and is the annual celebration of the irrational mathematical constant π, which starts at 3.1415926535897932... To illustrate the non-repeating decimals of π, I visualise and colour code the first 4, 16, 64, 256, 1024, and 4096 digits of π, reshaping the vectors of decimals into matrix forms.
+March 14, or 3/14, is also called International Pi Day and is the annual celebration of the irrational mathematical constant π, which starts at 3.1415926535897932... To illustrate the non-repeating decimals of π, I visualise and colour code the first 4, 16, 64, 256, 1024, and 4096 digits of π.
 
 <!--more-->
 
