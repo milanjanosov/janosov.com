@@ -1,5 +1,5 @@
 ---
-title: "Game of Thrones — Network of the Dragon"
+title: "A Network of Christmas Movies"
 date: 2019-12-16T00:00:00
 coverImg: christmasmovies.png
 ---
