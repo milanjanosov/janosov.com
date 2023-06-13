@@ -4,7 +4,7 @@ date: 2021-06-14T00:00:00
 coverImg: ludwig.png
 ---
 
-A major part of the BarabasiLab - Hidden Patterns Exhibition at Ludwig Museum Budapest covered the Hungarian Art Network. We published the story behind this network in the book titled 'Élek Mentén'.
+A major section of the BarabasiLab - Hidden Patterns Exhibition at Ludwig Museum Budapest covered the Hungarian Art Network, showcasing our first attempt to map out the hidden network connections in the contemporary art scene in Hungary. We published the story behind this network in the book titled 'Élek Mentén'.
 
 <!--more-->
 

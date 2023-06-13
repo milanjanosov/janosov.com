@@ -1,6 +1,6 @@
 ---
 title: "Who Dies Next in Game of Thrones?"
-date: 2017-06-10T00:00:00
+date: 2017-07-08T00:00:00
 coverImg: game_of_thrones_network.png
 ---
 

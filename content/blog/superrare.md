@@ -1,10 +1,10 @@
 ---
-title: "Network Science NFTs And Crypoart"
+title: "Mapping Superrare - Network Science NFTs"
 date: 2021-05-07T00:00:00
 coverImg: superrare.png
 ---
 
-With Albert-László Barabási, we ventured into the rising field of NFT by mapping out one of the most dominant platforms, Superrare, and turned network visualizations into NFTs.
+With Albert-László Barabási, we ventured into the rising field of NFTs and crypto art by mapping out one of the most dominant platforms, Superrare, then turned the network visualizations into NFTs sold on Foundation and Superrare, and got them showcased from the New York Times to the Miami Art Week.
 
 <!--more-->
 
