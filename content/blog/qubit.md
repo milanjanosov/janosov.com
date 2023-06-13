@@ -1,6 +1,6 @@
 ---
 title: "Mapping Qubit"
-date: 2020-28-15T00:00:00
+date: 2021-01-15T00:00:00
 coverImg: qubit.png
 ---
 

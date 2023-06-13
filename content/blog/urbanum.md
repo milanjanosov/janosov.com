@@ -1,5 +1,5 @@
 ---
-title: "Data hunger - A scientific gastronomic tour in District V, Budapest | URBANUM"
+title: "Data Hunger - A Scientific Gastronomic Tour in District V, Budapest | URBANUM"
 date: 2021-02-22T00:00:00
 coverImg: urbanum.png
 ---
