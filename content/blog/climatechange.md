@@ -9,4 +9,4 @@ What does the current research-landscape of climate change look like? What are t
 
 <!--more-->
 
-[Read the full blogpost at Behavioural and Social Sciences at Nature](https://socialsciences.nature.com/posts/66595-key-topics-of-climate-change-research)
+[Read the full blogpost here](https://socialsciences.nature.com/posts/66595-key-topics-of-climate-change-research)
