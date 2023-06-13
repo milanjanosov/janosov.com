@@ -4,7 +4,7 @@ date: 2022-05-08T00:00:00
 coverImg: bubi.png
 ---
 
-The concept of 15-minute cities, and urban accessibility, are of major importance in today's urban planning. Additionally, also a domain where network science, data science, and geospatial analytics all meet - hence, the nice maps, and useful applications.
+The concept of 15-minute cities, and urban accessibility, are of major importance in today's urban planning. Additionally, also a domain where network science, data science, and geospatial analytics all meet - hence, the nice maps, and useful applications. In this piece, I explore Budapest through this lens.
 
 <!--more-->
 

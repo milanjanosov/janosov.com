@@ -4,7 +4,7 @@ date: 2022-05-08T00:00:00
 coverImg: prettymaps.jpeg
 ---
 
-Exploring @PrettyMaps visualizing urban spaces like road networks and POIs.
+Exploring @PrettyMaps, the open-source Python-based data visualization tool that pulls data from OpenStreetMap and visualizes urban spaces like road networks and POIs in a unique, beautiful form. In these posts, I show a few iconic landmarks drawn up with this tool.
 
 <!--more-->
 
