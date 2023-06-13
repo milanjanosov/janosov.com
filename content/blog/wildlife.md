@@ -4,11 +4,8 @@ date: 2023-04-26T00:00:00
 coverImg: wildlife.png
 ---
 
-Combining geospatial data science, network science, and the unique wildlife habitat database of the International Union for Conservation of Nature (IUCN) supports wildlife protection policy making.
+The International Union for Conservation of Nature (IUCN) built a unique wildlife habitat geospatial database incorporating data about more than 100,000 species. In this article, I explore how geospatial data science and network science can be combined to study the different patterns in different species' cohabitation with the hope of contributing to future protection policies.
 
 <!--more-->
 
-The International Union for Conservation of Nature (IUCN) launched a number of different projects aiming to protect wildlife. One of these efforts led to a high-quality global geospatial database containing the habitats of more than 100,000 species. In this article, I explore how species of the mammal class are related to each other based on their shared habitats. To achieve this, I combined a handful of tools from geospatial analytics and network science to transform the geographical areas of habitats into a relational graph of animal species.
-
-
-[Read the rest in Nightingale here](https://nightingaledvs.com/using-color-to-interpret-a-complex-network-of-threatened-species/)
+[Read the rest in here](https://nightingaledvs.com/using-color-to-interpret-a-complex-network-of-threatened-species/)

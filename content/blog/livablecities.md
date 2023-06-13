@@ -1,5 +1,5 @@
 ---
-title: "Livable cities’ urban networks"
+title: "Livable Cities’ Urban Networks"
 date: 2023-01-26T00:00:00
 coverImg: livablecities.jpg
 ---
