@@ -4,7 +4,7 @@ date: 2023-02-28T00:00:00
 coverImg: you.png
 ---
 
-Weekly pop-cult and data collab from me covering @netflix's disturbing blockbuster psycho-thriller, 𝐘𝐨𝐮. The #visualisation, created with #python and #matplotlib shows how much the show is about 'you' each season.
+Weekly pop-cult and data collab from me covering @netflix's disturbing blockbuster psycho-thriller, 𝐘𝐨𝐮. The visualisation, created with python and matplotlib shows how much the show is about 'you' each season.
 
 <!--more-->
 

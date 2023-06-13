@@ -4,7 +4,7 @@ date: 2023-02-10T00:00:00
 coverImg: nobel.png
 ---
 
-The second issue of Data Visualization Society's fabulous printed Nightingale arrived a few weeks ago - proudly featuring my article Genius Cliques - Mapping out the Nobel Network article about science history as network science.
+The second issue of Data Visualization Society's fabulous printed Nightingale arrived a few weeks ago - proudly featuring my article Genius Cliques - Mapping out the Nobel Network article on science history. In this work, I mapped out the co-reference network of all the Laurates based on their Wikipedia profiles.
 
 <!--more-->
 
