@@ -1,7 +1,7 @@
 ---
 title: "Who Dies Next in Game of Thrones?"
 date: 2017-07-08T00:00:00
-coverImg: game_of_thrones_network.png
+coverImg: who_dies_next_in_game_of_thrones.png
 ---
 
 The new season of Game of Thrones is almost upon us and fans are excited about what it may bring. To spoil it a little, I built the social network of GoT characters and used it to first quantify each character’s social interaction patterns via network science. Then I used these network features to predict the characters' fate using machine learning methods.

@@ -1,7 +1,7 @@
 ---
 title: "You - Data Analysis on Netflix"
 date: 2023-02-28T00:00:00
-coverImg: you.png
+coverImg: youdata_analysis_on_netflix.png
 ---
 
 Weekly pop-cult and data collab from me covering Netflix's disturbing blockbuster psycho-thriller, You. The visualisation, created with python and matplotlib shows how much the show is about 'you' each season.

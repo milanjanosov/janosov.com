@@ -1,7 +1,7 @@
 ---
 title: "Group Chasing Tactics: How to Catch a Faster Prey"
 date: 2017-05-09T00:00:00
-coverImg: groupchasing.png
+coverImg: group_chasing_tactics_how_to_catch_a_faster_prey.png
 ---
 
 During my Master's thesis work, with Tamás Vicsek and Gábor Vásárhelyi we propose a bio-inspired, agent-based approach to describe the natural phenomenon of group chasing in both two and three dimensions.  We implemented a unique collective chasing strategy, optimized its parameters, and studied its properties when chasing a much faster, erratic escaper.

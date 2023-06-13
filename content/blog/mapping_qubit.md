@@ -1,7 +1,7 @@
 ---
 title: "Mapping Qubit"
 date: 2021-01-15T00:00:00
-coverImg: qubit.png
+coverImg: mapping_qubit.png
 ---
 
 Here I happened to visualy map the network of topics on the Hungarian science populizer portal Qubit by first extracting the keywords from all their 2020 articles, and then organizing them into a textual network based on the keywords co-occurrence.
