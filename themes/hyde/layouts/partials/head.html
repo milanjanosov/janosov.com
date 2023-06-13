@@ -39,5 +39,17 @@
     {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
   {{ end -}}
 
+  <meta property="og:title" content="{{ .Title }}" />
+  {{ if .Summary }}
+    <meta property="og:description" content="{{ .Summary }}" />
+  {{ end }}
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="{{ .Permalink }}" />
+  {{ if .Params.coverImg }}
+    {{ $img := split .Params.coverImg "." }}
+    <meta property="og:image"
+      content="{{ .Site.BaseURL }}images/{{ index $img 0 }}_thumbnail.{{ index $img 1 }}" />
+  {{ end }}
+
   {{ partial "hook_head_end.html" . }}
 </head>
