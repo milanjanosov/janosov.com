@@ -1,5 +1,5 @@
 ---
-title: "AI-based NFTs are coming"
+title: "AI-Based NFTs are Coming"
 date: 2022-06-14T00:00:00
 coverImg: foundation.png
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Building and Visualizing a Social Network through the Vikings’ Example"
+title: "Building and Visualizing a Social Network Through the Vikings’ Example"
 date: 2022-04-26T00:00:00
 coverImg: vikings.png
 ---

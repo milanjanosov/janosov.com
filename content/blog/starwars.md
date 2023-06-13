@@ -1,5 +1,5 @@
 ---
-title: "Star Wars — Network Sith and Jedi Masters"
+title: "Star Wars — Network of Sith and Jedi Masters"
 date: 2022-05-04T00:00:00
 coverImg: starwars.png
 ---

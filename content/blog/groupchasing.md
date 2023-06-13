@@ -1,5 +1,5 @@
 ---
-title: "Group chasing tactics: how to catch a faster prey"
+title: "Group Chasing Tactics: How to Catch a Faster Prey"
 date: 2017-05-09T00:00:00
 coverImg: groupchasing.png
 ---
