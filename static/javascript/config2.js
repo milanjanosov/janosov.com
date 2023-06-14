@@ -2,7 +2,7 @@ const config = {
     path: 'data/dogs.json',
     scene: {
         initialWait: 0, //2000,
-        root: '.background',
+        root: 'background',
         // debug: true,
         fog: {
             enabled: false,

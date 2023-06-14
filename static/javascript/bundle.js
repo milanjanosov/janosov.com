@@ -22617,11 +22617,17 @@ function InsertStackElement(node, body) {
       this.renderer.setPixelRatio(window.devicePixelRatio);
       this.renderer.physicallyCorrectLights = true;
       if (typeof this.config.root !== "undefined") {
-        const root = document.querySelector(this.config.root);
-        const rect = root.getBoundingClientRect();
-        this.renderer.setSize(rect.width, rect.height);
-        root.appendChild(this.renderer.domElement);
-        this.camera = new PerspectiveCamera(45, rect.width / rect.height, 0.1, 1e3);
+        const root = document.querySelector(`.${this.config.root}`);
+        if (this.config.width && this.config.height) {
+          this.renderer.setSize(this.config.width, this.config.height);
+          root.appendChild(this.renderer.domElement);
+          this.camera = new PerspectiveCamera(45, this.config.width / this.config.height, 0.1, 1e3);
+        } else {
+          const rect = root.getBoundingClientRect();
+          this.renderer.setSize(rect.width, rect.height);
+          root.appendChild(this.renderer.domElement);
+          this.camera = new PerspectiveCamera(45, rect.width / rect.height, 0.1, 1e3);
+        }
       } else {
         this.renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(this.renderer.domElement);
@@ -22648,6 +22654,7 @@ function InsertStackElement(node, body) {
       this.orbitControls.autoRotate = !this.config.animate;
       this.orbitControls.addEventListener("start", () => {
         this.orbitControls.autoRotate = false;
+        this.rotateStopped = true;
       });
       this.orbitControls.update();
       const nodeGeometry = this.makeGeometry();
@@ -22724,7 +22731,7 @@ function InsertStackElement(node, body) {
         this.links.add(line);
       });
       this.scene.add(this.links);
-      if (this.config.fog.enabled) {
+      if (this.config.fog?.enabled) {
         this.scene.fog = new FogExp2(
           new Color(this.config.fog.color),
           this.config.fog.density
@@ -22868,7 +22875,7 @@ function InsertStackElement(node, body) {
             if (this.end === null) {
               this.end = Date.now();
             } else {
-              if (Date.now() - this.end > 0) {
+              if (Date.now() - this.end > 0 && !this.rotateStopped) {
                 this.orbitControls.autoRotate = true;
                 this.orbitControls.autoRotateSpeed = this.phi;
                 if (this.phi < this.phiMax) {

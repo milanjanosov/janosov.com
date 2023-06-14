@@ -1,6 +1,6 @@
 const config = {
     debug: true,
-    path: '/assets/data/dogs.json',
+    path: 'data/dogs.json',
     scene: {
         backgroundColor: 'hsl(0, 0%, 10%)',
         node: {
@@ -22,6 +22,11 @@ const config = {
             color: 'hsl(120, 30%, 30%)',
             opacity: 1,
         },
+        root: 'network',
+        width: 800,
+        height: 600,
+        initialWait: 0, //2000,
+        maxStep: 300,
     },
     physicsSettings: {
         timeStep: .2,

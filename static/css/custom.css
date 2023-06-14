@@ -414,4 +414,8 @@ details[open] .service__title {
 }
 .social__icon:hover {
   transform: scale(1.1);
+}
+
+.network {
+  margin: 2rem 0;
 }/*# sourceMappingURL=custom.css.map */
