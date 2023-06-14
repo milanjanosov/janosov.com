@@ -8,7 +8,7 @@
       {{ $img := split .Params.coverImg "." }}
 
       <a class="image-link" href="{{ .Site.BaseURL }}images/{{ index $img 0 }}_full.{{ index $img 1 }}" target="_blank" rel="noopener">
-      <img src="{{ .Site.BaseURL }}images/{{ index $img 0 }}_thumbnail.{{ index $img 1 }}">
+      <img src="{{ .Site.BaseURL }}images/{{ index $img 0 }}_full.{{ index $img 1 }}">
       </a>
 
     {{ end }}
