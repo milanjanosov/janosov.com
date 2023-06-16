@@ -4,7 +4,7 @@ date: 2023-03-30T00:00:00
 coverImg: functional_network_map_of_the_companion_dog_brain.jpeg
 ---
 
-This study on canine brain networks reveals several new findings on mammalian brain evolution, and presents the first anatomically-defined ROI (region of interest) based functional network map of the companion dog brain combining fMRI, ethology, and network science.
+This study on canine brain networks reveals several new findings on mammalian brain evolution and presents the first anatomically-defined ROI (region of interest) based functional network map of the companion dog brain combining fMRI, ethology, and network science.
 
 <!--more-->
 
