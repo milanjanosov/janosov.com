@@ -49,6 +49,9 @@
     {{ $img := split .Params.coverImg "." }}
     <meta property="og:image"
       content="{{ .Site.BaseURL }}images/{{ index $img 0 }}_thumbnail.{{ index $img 1 }}" />
+  {{ else }}
+    <meta property="og:image"
+      content="{{ .Site.BaseURL }}images/og_img_default.jpg" />
   {{ end }}
 
   {{ partial "hook_head_end.html" . }}
