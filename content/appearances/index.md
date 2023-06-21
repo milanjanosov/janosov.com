@@ -16,7 +16,7 @@ bodyClass: appearances
 - [ResearchGate](https://www.researchgate.net/profile/Milan-Janosov-2)
 ​
 
-## Populizer articles
+## Data stories
 
 - [Nightingale](https://nightingaledvs.com/author/milan-janosov/)
 - [Qubit](https://qubit.hu/author/janosovm)
