@@ -18,7 +18,7 @@ networkConfig: 'config2.js'
   </details>
     <details class="service">
         <summary class="service__title">Lectures and workshops</summary>
-        <p class="service__description">Milan has been a lecturer and keynote speaker at large events for years both in academia and the private sector - now you can invite him to your event covering various areas of data science and its applications, particularly network science and geospatial data analytics. For references, please visit the <a href="../appearances">Appearances</a> section. </p>
+        <p class="service__description">Milan has been a lecturer and keynote speaker at events for years, both in academia and the private sector - now you can invite him to your event covering various areas of data science and its applications, particularly network science and geospatial data analytics. For references, please visit the <a href="../appearances">Appearances</a> section. </p>
         <a class="service__contact button" href="../contact#lecture-workshop">Ask for details</a>
     </details>
     <details class="service">
