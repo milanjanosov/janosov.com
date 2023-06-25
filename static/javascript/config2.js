@@ -11,7 +11,7 @@ const config = {
         },
         // animate: false,
         maxStep: 300,
-        backgroundColor: 'hsl(0, 0%, 10%)',
+        backgroundColor: 'hsl(0, 0%, 0%)',
         node: {
             geometry: 'sphere', // box, dodecahedron, icosahedron, octahedron, sphere
             size: .2,
