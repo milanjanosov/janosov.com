@@ -54,7 +54,7 @@ h2 {
 
     p {
         margin-bottom: 0;
-        line-height: 2rem;
+        line-height: 4.5vh;
     }
 }
 
@@ -107,7 +107,7 @@ h2 {
 
         li {
             display: flex;
-            line-height: 2rem;
+            line-height: clamp(150%, 4.5vh, 200%);
         }
     }
 }
@@ -433,7 +433,10 @@ details[open] {
 }
 
 .social {
-    align-items: flex-end;
+    @media (min-height: 45em) {
+        align-items: flex-end;
+    }
+
     column-gap: .25rem;
     display: flex;
     flex-direction: row;
@@ -464,8 +467,9 @@ details[open] {
     max-width: 100%;
 
     @media (min-width: 48rem) {
-        max-height: 30vh;
-        max-width: 30vh;
+        margin: 0 auto;
+        max-height: 32vh;
+        max-width: 32vh;
     }
 }
 

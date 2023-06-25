@@ -62,7 +62,7 @@ h2 {
 }
 .lead p {
   margin-bottom: 0;
-  line-height: 2rem;
+  line-height: 4.5vh;
 }
 
 .content {
@@ -114,7 +114,7 @@ h2 {
 }
 .sidebar-nav li {
   display: flex;
-  line-height: 2rem;
+  line-height: clamp(150%, 4.5vh, 200%);
 }
 
 .posts {
@@ -394,12 +394,16 @@ details[open] .service__title {
 }
 
 .social {
-  align-items: flex-end;
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
   display: flex;
   flex-direction: row;
   flex-grow: 2;
+}
+@media (min-height: 45em) {
+  .social {
+    align-items: flex-end;
+  }
 }
 @media (min-width: 48em) {
   .social {
@@ -426,7 +430,8 @@ details[open] .service__title {
 }
 @media (min-width: 48rem) {
   .profile {
-    max-height: 30vh;
-    max-width: 30vh;
+    margin: 0 auto;
+    max-height: 32vh;
+    max-width: 32vh;
   }
 }/*# sourceMappingURL=custom.css.map */
