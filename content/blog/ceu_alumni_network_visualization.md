@@ -1,7 +1,7 @@
 ---
 title: "CEU Alumni Network Visualization"
 date: 2019-06-26T00:00:00
-coverImg: ceu_alumni_network_visualization.jpg
+coverImg: ceu_alumni_network_visualization.png
 ---
 
 CEU has a community of almost 15,000 alumni from more than 130 countries around the world. This visualization shows their network: the nodes represent the alumni, and the links between them express their similarity. Their similarity, the weight of the links, is one if the end nodes share only one of the following attributes: citizenship, year of graduation, and program.
