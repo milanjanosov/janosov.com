@@ -1,7 +1,7 @@
 ---
 title: "Asimov's Foundation - Turning a Data Story into an NFT Artwork"
 date: 2021-09-01T00:00:00
-coverImg: asimovs_foundationturning_a_data_story_into_an_nft_artwork.png
+coverImg: asimovs_foundationturning_a_data_story_into_an_nft_artwork.jpg
 ---
 
 Isaac Asimov's Foundation series is widely considered to be the best science fiction novel series ever written. Here we show how data science can transform this brilliant novel series into a network, which then turns into an NFT artwork, while the publication's text is being extended by AI-written paragraphs.

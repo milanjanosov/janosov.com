@@ -1,7 +1,7 @@
 ---
 title: "A Network Map of The Witcher"
 date: 2021-12-23T00:00:00
-coverImg: a_network_map_of_the_witcher.png
+coverImg: a_network_map_of_the_witcher.jpg
 ---
 
 I used the Witcher, a fantasy novel series by Andrzej Sapkowski, later a popular computer game and a Netflix show, to showcase how data science and text analysis can be used to extract and visualize the backbone of a complex series of events by building a social map of the Witcher.

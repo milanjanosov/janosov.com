@@ -1,7 +1,7 @@
 ---
 title: "Using Color to Interpret a Complex Network of Threatened Species"
 date: 2023-04-26T00:00:00
-coverImg: using_color_to_interpret_a_complex_network_of_threatened_species.png
+coverImg: using_color_to_interpret_a_complex_network_of_threatened_species.jpg
 ---
 
 The International Union for Conservation of Nature (IUCN) built a unique wildlife habitat geospatial database incorporating data about more than 100,000 species. In this article, I explore how geospatial data science and network science can be combined to study the different patterns in different species' cohabitation with the hope of contributing to future protection policies.

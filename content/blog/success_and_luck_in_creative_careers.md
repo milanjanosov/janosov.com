@@ -1,7 +1,7 @@
 ---
 title: "Success and Luck in Creative Careers"
 date: 2020-12-01T00:00:00
-coverImg: success_and_luck_in_creative_careers.png
+coverImg: success_and_luck_in_creative_careers.jpg
 ---
 
 Here, we provide new insights into the role of randomness in the impact of creative careers: first, we systematically untangle luck and individual ability from luck and compare the luck factor between numerous fields; then we show the surprising presence of randomness in the relationship between collaboration networks and timing of career hits.
