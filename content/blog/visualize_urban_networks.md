@@ -1,7 +1,7 @@
 ---
-title: "#30DayMapChallenge"
-date: 2022-11-30T00:00:00
-coverImg: 30daymapchallenge.png
+title: "Visualizing Urban Networks"
+date: 2023-08-15T00:00:00
+coverImg: visualizingurbannetworks.png
 ---
 
 Here I share an example code for my recent LinkedIn post series on visualizing urban networks using OSMnx and Matplotlib.
