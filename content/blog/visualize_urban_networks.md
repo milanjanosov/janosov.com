@@ -7,9 +7,11 @@ coverImg: visualizingurbannetworks.png
 Here I share an example code for my recent LinkedIn post series on visualizing urban networks using OSMnx and Matplotlib.
 
 
-Here's some embedded Python code:
 
 <!--more-->
+
+
+Here is the code on how to do figures like this:
 
 ```python
 # query the admin boundaries of the city
