@@ -1,7 +1,7 @@
 ---
 title: "Visualizing Urban Networks"
 date: 2023-08-15T00:00:00
-coverImg: visualizingurbannetworks.png
+coverImg: visualizing_urban_networks.png
 ---
 
 Here I share an example code for my recent LinkedIn post series on visualizing urban networks using OSMnx and Matplotlib.
