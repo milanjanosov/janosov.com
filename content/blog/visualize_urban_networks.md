@@ -11,4 +11,4 @@ One of my favorite visualization types shows the road network of cities, combini
 <!--more-->
 
 
-You may access to the notebook with my code snippet [here](https://nightingaledvs.com/fifa-world-cup-2022-the-network-edition/).
+You may access to the notebook with my code snippet [here](https://www.patreon.com/posts/visualizing-89093878).
