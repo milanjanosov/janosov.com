@@ -1,6 +1,6 @@
 ---
 title: "Decoding the Manhattan Project’s Network"
-date: 2023-09-12T00:00:00
+date: 2023-09-10T00:00:00
 coverImg: decoding_the_manhattan_projects_network.png
 ---
 
