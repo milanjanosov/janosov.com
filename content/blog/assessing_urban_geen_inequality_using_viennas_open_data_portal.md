@@ -1,6 +1,6 @@
 ---
-title: "50 Years of Oscars: Acting Success and Collaboration"
-date: 2022-03-30T00:00:00
+title: "Assessing Urban Green Equality Using Vienna’s Open Data Portal"
+date: 2023-09-11T00:00:00
 coverImg: assessing_urban_geen_inequality_using_viennas_open_data_portal.png
 ---
 
