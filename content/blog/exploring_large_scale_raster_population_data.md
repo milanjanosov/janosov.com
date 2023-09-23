@@ -1,7 +1,7 @@
 ---
 title: "Exploring Large-scale Raster Population Data
 "
-date: 2023-09-11T00:00:00
+date: 2023-09-22T00:00:00
 coverImg: exploring_large_scale_raster_population_data.png
 ---
 
