@@ -9,5 +9,4 @@ In this piece, I combine earlier work on urban accessibility or walkability with
 
 <!--more-->
 
-
-[Read the rest on Towards Data Science](https://towardsdatascience.com/urban-accessibility-how-to-reach-defibrillators-on-time-c865d9194448)
+[*_Read the rest on here_*](https://towardsdatascience.com/urban-accessibility-how-to-reach-defibrillators-on-time-c865d9194448)
