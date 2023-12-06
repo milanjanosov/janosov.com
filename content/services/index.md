@@ -6,11 +6,20 @@ networkConfig: 'config2.js'
 ---
 
 <div class="services">
+
+<details class="service">
+    <summary class="service__title">Unique Data Prints</summary>
+    <p class="service__description">Looking for a unique print of my data visualisations? Reach out here!</p>
+    <a class="service__contact button" href="../contact#data-print">Ask for details</a>
+</details>
+
+
   <details class="service">
       <summary class="service__title">Geospatial Data Science Masterclass</summary>
       <p class="service__description">Are you interested in leveling up your geospatial skills, from data cleaning to map visualizations? Milan has been working with geospatial data for over five years, including start-ups, governmental, and consulting projects. He is now ready to share his insights and best practices during his one-on-one masterclasses!</p>
       <a class="service__contact button" href="../contact#geospatial-data-science-masterclass">Ask for details</a>
   </details>
+
   <details class="service">
       <summary class="service__title">Network Science Masterclass</summary>
       <p class="service__description">Do you want to understand complex systems, from legal tech to HR, or simply create powerful network visualizations of your data? Now is the chance to learn from an expert who had his networks from GQ to the New York Times in Milan's limited one-on-one masterclasses!</p>
