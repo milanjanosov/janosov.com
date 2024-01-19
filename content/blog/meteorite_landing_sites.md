@@ -1,25 +1,17 @@
 ---
 title: Meteorite Landing Sites
-date: 2023-11-02T00:00:00
+date: 2023-11-10T00:00:00
 coverImg: meteorite_landing_sites.png
 ---
-Visualizing the road network of Budapest using OpenStreetMap and the OSMNx package.  
+This map shows the road network of North America based on the Natural Earth data set, visualising 49,183 road segments and showing very neatly how the continent's morphology and population density changes
 
 <!--more-->
 
-Visualizing the road network of Budapest using OpenStreetMap and the OSMNx package.  
 
+The map shows very sparse road structures up north and neet grid structures in the more populated areas.
 
-Today, not for the first time, I show you the road network of my hometown, Budapest, Hungary, using OpenStreetMap data via the OSMNx package.
+𝐃𝐚𝐭𝐚 𝐒𝐨𝐮𝐫𝐜𝐞: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/ (ne_10m_roads_north_america)
 
-Fun fact: this road network representation of Budapest has 115,539 nodes and 316,096 edges, while the length of all road segments measures 1,879 km!
-
-𝐂𝐨𝐝𝐞 𝐚𝐧𝐝 𝐨𝐭𝐡𝐞𝐫 𝐭𝐮𝐭𝐨𝐫𝐢𝐚𝐥𝐬: https://www.patreon.com/milanjanosov
-
-𝐎𝐒𝐌𝐍𝐱 𝐬𝐨𝐮𝐫𝐜𝐞: https://osmnx.readthedocs.io
-
-Data accessed: 2023 November 1
-
-#gis #datascience #maps #geospatialdata #datavisualization #spatialanalytics #spatialdata#geospatial #data #ai
+Data access: 2023 October 13
 
 
