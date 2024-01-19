@@ -1,6 +1,6 @@
 ---
 title: Meteorite Landing Sites
-date: 2023-11-1T00:00:00
+date: 2023-11-01T00:00:00
 coverImg: meteorite_landing_sites.png
 ---
 The long-awaited #30DayMapChallenge has started, mappy November, folks! And here comes my first map, focusing on point data. Specifically, I used NASA's Open Data Portal's Meteorite Landing data. This dataset contains about 40k observations, which, when placed on a map, show a remarkable correlation with population densities. So either meteorites target inhabited lands, or we have more data on meteorites where there are more people to find them, right?
