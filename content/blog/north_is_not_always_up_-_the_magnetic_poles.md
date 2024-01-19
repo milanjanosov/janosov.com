@@ -19,7 +19,6 @@ https://www.arcgis.com/home/item.html?id=3b9045c4d1aa408694d3759d1aa5ede4
 https://www.ncei.noaa.gov/products/world-magnetic-model
 
 
-
 Data accessed: 2023 November 17
 
 
