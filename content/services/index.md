@@ -38,11 +38,4 @@ networkConfig: 'config2.js'
         <p class="service__description">Milan and his team have been working with clients at all scales, from start-ups to global corporations, in numerous industry segments,  from consulting to fintech. Their expertise cover i) building data science teams from conducting interviews to organizing workflows, ii) designing user-friendly digital products utilizing large-scale data and AI, and iii) tackling a wide range of data-related problems using geospatial data science, network science, natural language processing, machine learning, and many more.</p>
         <a class="service__contact button" href="../contact#data-science-consulting">Ask for details</a>
     </details>
-
-    <details class="service">
-        <summary class="service__title">Unique Data Prints</summary>
-        <p class="service__description">Looking for a unique print of my data visualisations? Reach out here!</p>
-        <a class="service__contact button" href="../contact#data-print">Ask for details</a>
-    </details>
-
 </div>
