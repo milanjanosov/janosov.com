@@ -7,11 +7,14 @@ networkConfig: 'config2.js'
 
 <div class="services">
 
-<details class="service">
-    <summary class="service__title">Unique Data Prints</summary>
-    <p class="service__description">Looking for a unique print of my data visualisations? Reach out here!</p>
-    <a class="service__contact button" href="../contact#data-print">Ask for details</a>
-</details>
+
+
+  <details class="service">
+      <summary class="service__title">Geospatial Data Science Training</summary>
+      <p class="service__description">With a track record of client projects, from innovative startups to major corporations, Milan has become a recognized figure in geospatial data. He regularly published Geospatial Python tutorials to Towards Data Science and is a Top Voice in Data Science and GIS on LinkedIn. Leveraging this extensive experience, Milan now offers comprehensive training sessions for B2B partners' teams, both online and in-person. These half- and one-day programs are tailored to empower professionals with the skills necessary for geospatial data science using Python.</p>
+      <a class="service__contact button" href="../contact#geospatial-data-science-training">Ask for details</a>
+  </details>
+
 
 
   <details class="service">
@@ -34,6 +37,12 @@ networkConfig: 'config2.js'
         <summary class="service__title">Data Science Consulting</summary>
         <p class="service__description">Milan and his team have been working with clients at all scales, from start-ups to global corporations, in numerous industry segments,  from consulting to fintech. Their expertise cover i) building data science teams from conducting interviews to organizing workflows, ii) designing user-friendly digital products utilizing large-scale data and AI, and iii) tackling a wide range of data-related problems using geospatial data science, network science, natural language processing, machine learning, and many more.</p>
         <a class="service__contact button" href="../contact#data-science-consulting">Ask for details</a>
+    </details>
+
+    <details class="service">
+        <summary class="service__title">Unique Data Prints</summary>
+        <p class="service__description">Looking for a unique print of my data visualisations? Reach out here!</p>
+        <a class="service__contact button" href="../contact#data-print">Ask for details</a>
     </details>
 
 </div>
