@@ -13,37 +13,37 @@ networkConfig: 'config2.js'
       <summary class="service__title">Geospatial Data Science Training</summary>
       <p class="service__description">With a track record of client projects, from innovative startups to major corporations, Milan has become a recognized figure in geospatial data. He regularly published Geospatial Python tutorials for Towards Data Science and is a top voice in data science and GIS on LinkedIn. Leveraging this extensive experience, Milan now offers a comprehensive 8-hour course on geospatial data science. This program is specifically tailored to provide a general overview and hands-on technical experience on the modern stack of geospatial data science using Python.
 
-      Day 1: Introduction to Geospatial Analytics with Python
+        <p Day 1: Introduction to Geospatial Analytics with Python
 
-      Overview of geospatial data science
-      Introduction to Python for geospatial analysis
-      Hands-on exercises: Working with geospatial libraries in Python
-      Day 2: Spatial Data Visualization and Exploration
+        Overview of geospatial data science
+        Introduction to Python for geospatial analysis
+        Hands-on exercises: Working with geospatial libraries in Python
+        Day 2: Spatial Data Visualization and Exploration
 
-      Data visualization techniques for spatial data
-      Exploratory data analysis (EDA) for geospatial datasets
-      Practical session: Creating interactive maps with Python
-      Day 3: Spatial Data Processing and Analysis
+        Data visualization techniques for spatial data
+        Exploratory data analysis (EDA) for geospatial datasets
+        Practical session: Creating interactive maps with Python
+        Day 3: Spatial Data Processing and Analysis
 
-      Advanced spatial data processing techniques
-      Spatial querying and analysis
-      Case studies and practical examples
-      Day 4: Geospatial Machine Learning
+        Advanced spatial data processing techniques
+        Spatial querying and analysis
+        Case studies and practical examples
+        Day 4: Geospatial Machine Learning
 
-      Introduction to machine learning for geospatial data
-      Feature engineering for spatial datasets
-      Hands-on workshop: Building predictive models with geospatial data
-      Day 5: Geospatial Applications and Future Trends
+        Introduction to machine learning for geospatial data
+        Feature engineering for spatial datasets
+        Hands-on workshop: Building predictive models with geospatial data
+        Day 5: Geospatial Applications and Future Trends
 
-      Real-world applications of geospatial analytics
-      Emerging trends and technologies in geospatial data science
-      Q&A and discussion session
-      Technical Details:
+        Real-world applications of geospatial analytics
+        Emerging trends and technologies in geospatial data science
+        Q&A and discussion session
+        Technical Details:
 
-      Location: Budapest, Hungary
-      Venue: [Provide Venue Name/Address]
-      Time: [Insert Start Time and End Time for Each Day]
-      Dates: [Insert Course Dates]
+        Location: Budapest, Hungary
+        Venue: [Provide Venue Name/Address]
+        Time: [Insert Start Time and End Time for Each Day]
+        Dates: [Insert Course Dates]</p>
 
 
 
