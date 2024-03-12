@@ -9,10 +9,11 @@ networkConfig: 'config2.js'
   <details class="service">
     <summary class="service__title">Geospatial Data Science Training</summary>
     <p class="service__description">With a track record of client projects, from innovative startups to major corporations, Milan has become a recognized figure in geospatial data. He regularly published Geospatial Python tutorials for Towards Data Science and is a top voice in data science and GIS on LinkedIn. Leveraging this extensive experience, Milan now offers a comprehensive 8-hour course on geospatial data science. This program is specifically tailored to provide a general overview and hands-on technical experience on the modern stack of geospatial data science using Python.</p>
+    <p><br>
     <p>Day 1: Introduction to Geospatial Analytics with Python<br>
-    Overview of geospatial data science<br>
-    Introduction to Python for geospatial analysis<br>
-    Hands-on exercises: Working with geospatial libraries in Python</p>
+    - Overview of geospatial data science<br>
+    - Introduction to Python for geospatial analysis<br>
+    - Hands-on exercises: Working with geospatial libraries in Python</p>
     <p>Day 2: Spatial Data Visualization and Exploration<br>
     Data visualization techniques for spatial data<br>
     Exploratory data analysis (EDA) for geospatial datasets<br>
