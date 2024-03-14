@@ -1,5 +1,5 @@
 ---
-title: "Geo"
+title: "Geospatial Training"
 menu: main
 weight: 2
 networkConfig: 'config2.js'
