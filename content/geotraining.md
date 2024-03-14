@@ -23,10 +23,11 @@ With a track record of client projects, from innovative startups to major corpor
 
 ## Timeline
 
-<p>*Day 1*: Introduction to Geospatial Analytics with Python<br>
-- Overview of geospatial data science<br>
-- Introduction to Python for geospatial analysis<br>
-- Hands-on exercises: Working with geospatial libraries in Python</p>
+**Day 1: Introduction to Geospatial Analytics with Python**
+- Overview of geospatial data science
+- Introduction to Python for geospatial analysis
+- Hands-on exercises: Working with geospatial libraries in Python
+
 <p>[Day 2](): Spatial Data Visualization and Exploration<br>
 - Data visualization techniques for spatial data<br>
 - Exploratory data analysis (EDA) for geospatial datasets<br>
@@ -45,7 +46,7 @@ With a track record of client projects, from innovative startups to major corpor
 - Q&A and discussion session</p>
 
 
-
+- [Nightingale]()
 - [Nightingale](https://nightingaledvs.com/author/milan-janosov/)
 - [Qubit](https://qubit.hu/author/janosovm)
 - [Behavioural and Social Sciences at Nature](https://socialsciences.nature.com/users/358956-milan-janosov)
@@ -53,8 +54,8 @@ With a track record of client projects, from innovative startups to major corpor
 ​
 ## Technical Details
 
-- [Venue]: [Provide Venue Name/Address]<br>
-- [Deadline] : kj
+- [Venue: [Provide Venue Name/Address]<br>
+- [Deadline](https://www.janosov.com/geotraining/) : kj
 - [Schedule]: [Insert Start Time and End Time for Each Day]<br>
 - [Dates]:hj
 - [Price]: jj
