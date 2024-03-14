@@ -7,7 +7,7 @@ bodyClass: appearances
 ---
 
 
-![](talks.png)
+![](geocover.png)
 
 
 ## Geospatial Data Science in Python - 8h Training
@@ -26,21 +26,6 @@ The course is built around extensive *Python* coding and is designed for data sc
 
 
 
-## Selected conferences, workshops
-
-- 2023 Budapest Data Science Meet-up
-- 2023 Proptech Hungary, *Keynote speaker*
-- 2023 GenZ Conference - Portfolio.hu
-
-
-
-[Day 1: Introduction to Geospatial Analytics with Python](https://www.janosov.com/geotraining/)
-
-- 2023 Budapest Data Science Meet-up
-- 2023 Proptech Hungary, *Keynote speaker*
-- 2023 GenZ Conference - Portfolio.hu
-
-
 
 
 [Day 1: Introduction to Geospatial Analytics with Python](https://www.janosov.com/geotraining/)
@@ -49,11 +34,13 @@ The course is built around extensive *Python* coding and is designed for data sc
 - Hands-on exercises: Working with key geospatial libraries in Python (e.g., Geopandas, Rasterio).
 - Data visualization techniques for spatial data, including interactive maps.
 
+
 [Day 2: Mapping Urban Areas](https://www.janosov.com/geotraining/)
 - Getting familiar with free data sources, such as demographics data dn OpenStreetMap
 - Download and quantify urban areas based on OSM
 - Visualizing and processing road network and public transport data
 - Exploratory data analysis for geospatial datasets
+
 
 [Day 3: Geospatial Profiling](https://www.janosov.com/geotraining/)
 - Advanced map visualization with Python
@@ -67,7 +54,10 @@ The course is built around extensive *Python* coding and is designed for data sc
 - Spatial clustering of topical POIs
 - Classification and regression on geospatial problems
 
+
 [Day 5: Final Project Presentation](https://www.janosov.com/geotraining/)
+
+
 
 
 
