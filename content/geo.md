@@ -2,8 +2,6 @@
 title: "Geospatial Data Training"
 menu: main
 weight: 2
-networkConfig: 'config2.js'
-bodyClass: appearances
 ---
 
 
