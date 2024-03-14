@@ -26,10 +26,10 @@ The course is built around extensive *Python* coding and is designed for data sc
 
 
 [Day 1: Introduction to Geospatial Analytics with Python](https://www.janosov.com/geotraining/)
-- - Historical context and significance of geospatial analytics.
-- - Introduction to Python for geospatial analysis, focusing on basic concepts and tools.
-- - Hands-on exercises: Working with key geospatial libraries in Python (e.g., Geopandas, Rasterio).
-- - Data visualization techniques for spatial data, including interactive maps.
+- — Historical context and significance of geospatial analytics.
+- — Introduction to Python for geospatial analysis, focusing on basic concepts and tools.
+- — Hands-on exercises: Working with key geospatial libraries in Python (e.g., Geopandas, Rasterio).
+- — Data visualization techniques for spatial data, including interactive maps.
 
 
 [Day 2: Mapping Urban Areas](https://www.janosov.com/geotraining/)
