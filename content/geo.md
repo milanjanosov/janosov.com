@@ -31,23 +31,23 @@ The course is built around extensive *Python* coding and is designed for data sc
 
 
 [Day 2: Mapping Urban Areas](https://www.janosov.com/geotraining/)
-- Getting familiar with free data sources, such as demographics data dn OpenStreetMap
-- Download and quantify urban areas based on OSM
-- Visualizing and processing road network and public transport data
-- Exploratory data analysis for geospatial datasets
+- — Getting familiar with free data sources, such as demographics data dn OpenStreetMap
+- — Download and quantify urban areas based on OSM
+- — Visualizing and processing road network and public transport data
+- — Exploratory data analysis for geospatial datasets
 
 
 [Day 3: Geospatial Profiling](https://www.janosov.com/geotraining/)
-- Advanced map visualization with Python
-- Overlaying various raster and urban data sets, such as population grid
-- Create detailed feature profiles of urban areas
-- The concept of spatial indexing
+- — Advanced map visualization with Python
+- — Overlaying various raster and urban data sets, such as population grid
+- — Create detailed feature profiles of urban areas
+- — The concept of spatial indexing
 
 
 [Day 4: Machine Learning in Spatial Analytics](https://www.janosov.com/geotraining/)
-- Introduction to machine learning for geospatial data
-- Spatial clustering of topical POIs
-- Classification and regression on geospatial problems
+- — Introduction to machine learning for geospatial data
+- — Spatial clustering of topical POIs
+- — Classification and regression on geospatial problems
 
 
 [Day 5: Final Project Presentation](https://www.janosov.com/geotraining/)
