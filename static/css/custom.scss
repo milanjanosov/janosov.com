@@ -40,6 +40,10 @@ h2 {
     font-size: 1.25rem;
 }
 
+strong {
+    color: unset;
+}
+
 // class overrides
 
 .container {
@@ -319,12 +323,20 @@ details[open] {
         bottom: 1rem;
         color: var(--default-text-color);
         line-height: 2rem;
-        padding: 0 1rem;
+        padding: 0.25rem 1rem;
         text-align: center;
         width: 10rem;
 
         &:hover {
             text-decoration: none;
+        }
+    }
+
+    &__description {
+        margin-bottom: 0;
+
+        &:last-child {
+            margin-top: 1rem;
         }
     }
 }

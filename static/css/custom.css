@@ -50,6 +50,10 @@ h2 {
   font-size: 1.25rem;
 }
 
+strong {
+  color: unset;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -291,12 +295,18 @@ details[open] .service__title {
   bottom: 1rem;
   color: var(--default-text-color);
   line-height: 2rem;
-  padding: 0 1rem;
+  padding: 0.25rem 1rem;
   text-align: center;
   width: 10rem;
 }
 .service__contact:hover {
   text-decoration: none;
+}
+.service__description {
+  margin-bottom: 0;
+}
+.service__description:last-child {
+  margin-top: 1rem;
 }
 
 .post-list-item,
