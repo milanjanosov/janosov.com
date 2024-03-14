@@ -24,7 +24,9 @@ The course is built around extensive *Python* coding and is designed for data sc
 
 ## Outline
 
-[Day 1: Introduction to Geospatial Analytics with Python](https://www.janosov.com/geotraining/)
+
+
+Day 1: [Introduction to Geospatial Analytics with Python](https://www.janosov.com/geotraining/)
 - Historical context and significance of geospatial analytics.
 - Introduction to Python for geospatial analysis, focusing on basic concepts and tools.
 - Hands-on exercises: Working with key geospatial libraries in Python (e.g., Geopandas, Rasterio).
@@ -61,18 +63,12 @@ The course is built around extensive *Python* coding and is designed for data sc
 - [Venue](https://www.janosov.com/geotraining/) : Central European University, Budapest, Nádor utca 15
 - [App Deadline](https://www.janosov.com/geotraining/) : April 5 12.00
 - [Schedule](https://www.janosov.com/geotraining/) : April 16 18.00-20.00, April 18 18.00-20.00, April 23 18.00-20.00, April 25 18.00-20.00, April 29 - 17.30-20.30
-- [Price](https://www.janosov.com/geotraining/) : kj
+- [Price](https://www.janosov.com/geotraining/) : HUF 139.000 + VAT
 
 
 ​
 ## Registration and Information
 
+You may register or ask any question here:
 
 <a class="service__contact button" href="../contact#geospatial-data-science-training">Ask for details</a>
-
-<div class="services">
-  <details class="service">
-    <summary class="service__title">Sign up here </summary>
-    <p class="service__description">If you have any quesitons or want to register..</p>
-    <a class="service__contact button" href="../contact#geospatial-data-science-training">Ask for details</a>
-  </details>
