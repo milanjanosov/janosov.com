@@ -25,9 +25,6 @@ The course is built around extensive *Python* coding and is designed for data sc
 ## Outline
 
 
-
-
-
 [Day 1: Introduction to Geospatial Analytics with Python](https://www.janosov.com/geotraining/)
 - Historical context and significance of geospatial analytics.
 - Introduction to Python for geospatial analysis, focusing on basic concepts and tools.
@@ -60,7 +57,6 @@ The course is built around extensive *Python* coding and is designed for data sc
 
 
 
-
 *Please note: Course details are subject to change to ensure the most current and engaging learning experience.*
 
 
@@ -71,7 +67,7 @@ The course is built around extensive *Python* coding and is designed for data sc
 - [Venue](https://www.janosov.com/geotraining/) : Central European University, Budapest, Nádor utca 15
 - [App Deadline](https://www.janosov.com/geotraining/) : April 5 12.00
 - [Schedule](https://www.janosov.com/geotraining/) : April 16 18.00-20.00, April 18 18.00-20.00, April 23 18.00-20.00, April 25 18.00-20.00, April 29 - 17.30-20.30
-- [Price](https://www.janosov.com/geotraining/) : HUF 139.000 + VAT
+- [Price](https://www.janosov.com/geotraining/) : HUF 142.000 + VAT
 
 
 ​
