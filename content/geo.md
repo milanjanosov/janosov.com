@@ -65,7 +65,9 @@ The course is built around extensive *Python* coding and is designed for data sc
 - [Venue](https://www.janosov.com/geotraining/) : Central European University, Budapest, Nádor utca 15
 - [App Deadline](https://www.janosov.com/geotraining/) : April 5 12.00
 - [Schedule](https://www.janosov.com/geotraining/) : April 16 18.00-20.00, April 18 18.00-20.00, April 23 18.00-20.00, April 25 18.00-20.00, April 29 - 17.30-20.30
+- [Prerequisites](https://www.janosov.com/geotraining/) : Beginner level of Python experience
 - [Price](https://www.janosov.com/geotraining/) : HUF 142.000 + VAT
+- [Equipment](https://www.janosov.com/geotraining/) : Personal laptop
 
 
 ​
