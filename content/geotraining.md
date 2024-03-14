@@ -26,7 +26,8 @@ The course is built around extensive *Python* coding and is designed for data sc
 
 
 
-Day 1: [Introduction to Geospatial Analytics with Python](https://www.janosov.com/geotraining/)
+[Day 1: Introduction to Geospatial Analytics with Python](https://www.janosov.com/geotraining/)
+
 - Historical context and significance of geospatial analytics.
 - Introduction to Python for geospatial analysis, focusing on basic concepts and tools.
 - Hands-on exercises: Working with key geospatial libraries in Python (e.g., Geopandas, Rasterio).
@@ -53,6 +54,7 @@ Day 1: [Introduction to Geospatial Analytics with Python](https://www.janosov.co
 [Day 5: Final Project Presentation](https://www.janosov.com/geotraining/)
 
 
+
 *Please note: Course details are subject to change to ensure the most current and engaging learning experience.*
 
 
@@ -71,4 +73,4 @@ Day 1: [Introduction to Geospatial Analytics with Python](https://www.janosov.co
 
 You may register or ask any question here:
 
-<a class="service__contact button" href="../contact#geospatial-data-science-training">Ask for details</a>
+<a class="service__contact button" href="../contact#geospatial-data-science-training">Registration</a>
