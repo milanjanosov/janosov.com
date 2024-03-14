@@ -26,8 +26,24 @@ The course is built around extensive *Python* coding and is designed for data sc
 
 
 
+## Selected conferences, workshops
+
+- 2023 Budapest Data Science Meet-up
+- 2023 Proptech Hungary, *Keynote speaker*
+- 2023 GenZ Conference - Portfolio.hu
+
+
+
 [Day 1: Introduction to Geospatial Analytics with Python](https://www.janosov.com/geotraining/)
 
+- 2023 Budapest Data Science Meet-up
+- 2023 Proptech Hungary, *Keynote speaker*
+- 2023 GenZ Conference - Portfolio.hu
+
+
+
+
+[Day 1: Introduction to Geospatial Analytics with Python](https://www.janosov.com/geotraining/)
 - Historical context and significance of geospatial analytics.
 - Introduction to Python for geospatial analysis, focusing on basic concepts and tools.
 - Hands-on exercises: Working with key geospatial libraries in Python (e.g., Geopandas, Rasterio).
