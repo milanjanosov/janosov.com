@@ -4,18 +4,20 @@ date: 2023-08-10T00:00:00
 coverImg: data_book.png
 ---
 
-Geospatial Data Science Essentials is multiple-times your #1 Amazon Best Seller  hands-on guide to mastering the science of geospatial analytics using Python. Designed for practitioners and enthusiasts alike, this book distills years of experience by wrapping up 101 key concepts from theory to implementation, ensuring you gain a practical understanding of the tools and methods that define the geospatial data science landscape today.
+Te is tucatnyi appot használsz éjjel-nappal? Tudtad, hogy legtöbbjük minden apró mozdulatodra figyel, amit az online térben teszel, rengeteg adatot rögzít, különféle algoritmusokat, akár mesterséges intelligenciát is használ, és mindeközben elképesztően sokféle hálózatot hoz létre? És azt, hogy ezek az appok egyszerre igyekeznek kiismerni téged és megérteni a korábbi lépéseidet azért, hogy a következőt már az ő segítségükkel tedd meg?
 
-e power of Python in unlocking the potential of spatial analytics.
 
 
 <!--more-->
 
-Whether you are a seasoned data scientist, a GIS professional, a newcomer to spatial data, or simply a map lover, this book provides you solid foundation to level up your skills. The book is centered around practicalities, as you will explore real-world examples with compact code throughout ten topics and 101 sections. From understanding spatial data structures to leveraging advanced analytical techniques, from spatial networks to machine learning, this book equips you with a wide range of knowledge to navigate and succeed in the rapidly evolving field of geospatial data science.
-
-Embrace the journey into geospatial data science with this essential guide and discover the power of Python in unlocking the potential of spatial analytics.
 
 
-[Buy it here](https://www.amazon.com/Geospatial-Data-Science-Essentials-Practical-ebook/dp/B0DJ2HBWJY/ref=sr_1_1?crid=6TK0RICCB4PZ&dib=eyJ2IjoiMSJ9.AEwJ1iyhqPQ22UCnhSrkTx2-PyQA4hn40K6mh2HsMdwjLlp2F7E65Rr-rI5cr1z-oq8NPDK1dshrretQnerfeQ.SVv8rvsMKBNj94APywYIGDod1B9ebKqT4-lE32WvYcs&dib_tag=se&keywords=geospatial+data+science+essentials&qid=1729959191&sprefix=geospatial+data+science+es%2Caps%2C250&sr=8-1)
+Az adatalapú algoritmusok és hálózatok a háttérben digitális létünk megkerülhetetlen szereplőivé váltak, mindannyiunk zsebébe csempészve az adat- és hálózattudományt. Miért kaphat egy influenszer reggelije több lájkot, mint valamely relevánsabb tartalom? Hogyan segíthetnek a hálózatok megtalálni a következő sztár DJ-t, mi köze a hálózatoknak az élhető városokhoz, és hogy jön mindehhez a Trónok harca vagy a vállalati HR?
 
-[Reviews](https://www.goodreads.com/book/show/216810435-geospatial-data-science-essentials)
+Olykor bonyolult és komplex jelenségek a tudomány és a pop-kult határán egyensúlyozva közérthetővé tehetők. Ehhez azonban sorra kell venni, mit is jelent az adat a mindennapjainkban, hogyan fest a hálózatok anatómiája, miként állnak össze a hálózatok.
+
+A megszokott ismeretterjesztő könyvektől eltérően Janosov Milán első kötetében arra vállalkozott, hogy meghökkentő kérdésfelvetéssekkel és megközelítésekkel közelebb hozza hozzánk azt a tudományt, amely behálózza az életünket. Az adatok és a hálózatok szinte mindenütt jelen vannak, de lehetnek szórakoztatóak is, sőt számos korábban ismeretlen utat nyithatnak meg előttünk.
+
+[Vásárlás](http://openbooks.hu/termek/data)
+
+[Vélemények](https://www.goodreads.com/book/show/196789777-data)
