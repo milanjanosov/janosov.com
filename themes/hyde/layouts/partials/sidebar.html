@@ -11,21 +11,13 @@
     </div>
 
 
-    <nav>
-
+    <nav>  
       <ul class="sidebar-nav">
         <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
         {{ range .Site.Menus.main -}}
           <li><a href="{{.URL}}"> {{ .Name }} </a></li>
         {{- end }}
         <li><a href="https://milanjanosov.substack.com"> Newsletter </a></li>
-      </ul>
-      
-      <ul class="sidebar-nav">
-        <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
-        {{ range .Site.Menus.main -}}
-          <li><a href="{{.URL}}"> {{ .Name }} </a></li>
-        {{- end }}
         <li><a href="http://shop.janosov.com"> Shop </a></li>
       </ul>
     </nav>
