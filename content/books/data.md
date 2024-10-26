@@ -11,7 +11,6 @@ Te is tucatnyi appot használsz éjjel-nappal? Tudtad, hogy legtöbbjük minden 
 <!--more-->
 
 
-
 Az adatalapú algoritmusok és hálózatok a háttérben digitális létünk megkerülhetetlen szereplőivé váltak, mindannyiunk zsebébe csempészve az adat- és hálózattudományt. Miért kaphat egy influenszer reggelije több lájkot, mint valamely relevánsabb tartalom? Hogyan segíthetnek a hálózatok megtalálni a következő sztár DJ-t, mi köze a hálózatoknak az élhető városokhoz, és hogy jön mindehhez a Trónok harca vagy a vállalati HR?
 
 Olykor bonyolult és komplex jelenségek a tudomány és a pop-kult határán egyensúlyozva közérthetővé tehetők. Ehhez azonban sorra kell venni, mit is jelent az adat a mindennapjainkban, hogyan fest a hálózatok anatómiája, miként állnak össze a hálózatok.

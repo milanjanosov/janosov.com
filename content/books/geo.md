@@ -1,7 +1,7 @@
 ---
 title: "Geospatial Data Science Essentials"
 date: 2024-07-23T00:00:00
-coverImg: geo_book.jpg
+coverImg: geo_book
 ---
 
 Geospatial Data Science Essentials is multiple-times your #1 Amazon Best Seller  hands-on guide to mastering the science of geospatial analytics using Python. Designed for practitioners and enthusiasts alike, this book distills years of experience by wrapping up 101 key concepts from theory to implementation, ensuring you gain a practical understanding of the tools and methods that define the geospatial data science landscape today.
