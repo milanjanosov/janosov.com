@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Python"
-date: 2023-08-10T00:00:00
+date: 2024-08-10T00:00:00
 coverImg: udemy_py
 ---
 
