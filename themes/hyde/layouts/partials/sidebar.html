@@ -10,6 +10,19 @@
       </div>
     </div>
 
+
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
+        {{ range .Site.Menus.main -}}
+          <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+        {{- end }}
+        <li><a href="https://milanjanosov.substack.com"> Newsletter </a></li>
+      </ul>
+    </nav>
+
+
     <nav>
       <ul class="sidebar-nav">
         <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
