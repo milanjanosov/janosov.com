@@ -1,7 +1,7 @@
 ---
-title: 'Blog'
+title: 'Books'
 menu: main
 weight: 5
 ---
 
-# Blog
+# Books
