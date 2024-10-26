@@ -1,7 +1,7 @@
 ---
-title: "Data - Így hálóznak be az adataid"
-date: 2023-08-10T00:00:00
-coverImg: data-book.jpg
+title: "Geospatial Data Science Essentials"
+date: 2024-07-23T00:00:00
+coverImg: geo_book.jpg
 ---
 
 Te is tucatnyi appot használsz éjjel-nappal? Tudtad, hogy legtöbbjük minden apró mozdulatodra figyel, amit az online térben teszel, rengeteg adatot rögzít, különféle algoritmusokat, akár mesterséges intelligenciát is használ, és mindeközben elképesztően sokféle hálózatot hoz létre? És azt, hogy ezek az appok egyszerre igyekeznek kiismerni téged és megérteni a korábbi lépéseidet azért, hogy a következőt már az ő segítségükkel tedd meg?
