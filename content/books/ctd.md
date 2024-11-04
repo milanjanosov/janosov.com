@@ -1,7 +1,7 @@
 ---
 title: "Connecting the Dots"
 date: 2024-11-03T00:00:00
-coverImg: ctd
+coverImg: ctd.jpeg
 ---
 
 We live in the age of connections. From social interactions to work routines, our phones, apps, and other digital tools capture every detail, linking us to networks that shape our lives. Through these networks, we keep up with friends, enjoy curated content, and streamline work with AI. And none of it would be possible without our data.
