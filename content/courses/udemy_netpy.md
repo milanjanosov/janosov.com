@@ -1,5 +1,5 @@
 ---
-title: " Network Analytics and Visualization in Python"
+title: "Network Analytics and Visualization in Python"
 date: 2024-09-03T00:00:00
 coverImg: udemy_networkpy.jpg
 ---
