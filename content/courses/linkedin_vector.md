@@ -1,5 +1,5 @@
 ---
-title: "Geospatial Data Analytics Essential Training - LinkedIn"
+title: "Geospatial Data Analytics Essential Training"
 date: 2024-09-04T00:00:00
 coverImg: vector.jpg
 ---

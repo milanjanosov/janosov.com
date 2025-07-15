@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Python - Udemy"
+title: "Introduction to Python"
 date: 2024-08-10T00:00:00
 coverImg: udemy_py.jpg
 ---

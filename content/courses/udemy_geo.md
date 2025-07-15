@@ -1,5 +1,5 @@
 ---
-title: "Urban Analytics with Python - Udemy"
+title: "Urban Analytics with Python"
 date: 2024-09-01T00:00:00
 coverImg: udemy_geo.jpg
 ---
