@@ -12,6 +12,4 @@ Welcome to the world of network science, where connections come to life! This co
 <!--more-->
 
 
-Welcome to the world of network science, where connections come to life! This course is your comprehensive guide to understanding and applying the principles of network science, graph analytics, and visualization. Whether you're a data scientist looking to expand your expertise or a tech-savvy learner eager for hands-on experience, this course will take you from the basics to practical, real-world applications.
-
 [More info](https://www.udemy.com/course/network-visualization-an-introduction/?referralCode=9EB68F8095712D238B35)

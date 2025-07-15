@@ -12,7 +12,4 @@ Are you eager to learn Python but overwhelmed by the endless hours of tutorials 
 <!--more-->
 
 
-This course covers seven core topics and includes hands-on exercises to test your skills. While the notebook topics are generic and aimed at giving you a good foundation for further deep dives, I have tailored the examples to the geospatial analytics field wherever possible. Don't worry if you're not into GIS—you'll still be able to follow along and learn a lot. However, if you are into GIS, these examples will be particularly relevant and familiar. Check out the outline below!
-
-
 [Sign up](https://www.udemy.com/course/python-for-geospatial/?referralCode=9CB37AD72F018CB25364)
