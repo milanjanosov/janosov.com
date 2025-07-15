@@ -1,6 +1,6 @@
 ---
 title: "Geospatial Data Science Essentials"
-date: 2024-07-23T00:00:.00
+date: 2024-07-23T00:00:00
 coverImg: geo_book.jpg
 ---
 
