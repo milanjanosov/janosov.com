@@ -4,7 +4,7 @@ date: 2024-09-04T00:00:00
 coverImg: vector.jpg
 ---
 
-Join 40.000+ students today!
+Join my 40.000+ students today!
 
 
 
