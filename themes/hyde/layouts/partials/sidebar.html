@@ -11,19 +11,21 @@
     </div>
     <nav>
       <ul class="sidebar-nav">
-        <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
-        {{ range .Site.Menus.main -}}
-          <li><a href="{{.URL}}"> {{ .Name }} </a></li>
-        {{- end }}
-        <li><a href="https://milanjanosov.substack.com"> Newsletter </a></li>
-        <li><a href="http://shop.janosov.com"> Shop </a></li>
+        <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+        <li><a href="https://www.geospatialdataconsulting.com">Services</a></li>
+        <li><a href="https://linktr.ee/janosov">Education</a></li>
+        <li><a href="{{ .Site.BaseURL }}blog">Blog</a></li>
+        <li><a href="{{ .Site.BaseURL }}appearances">Appearances</a></li>
+        <li><a href="https://janosovm.gumroad.com/">Shop</a></li>
+        <li><a href="{{ .Site.BaseURL }}contact">Contact</a></li>
       </ul>
     </nav>
-
     <nav class="social">
       <a href="https://www.linkedin.com/in/milan-janosov/"><img src="{{ site.BaseURL }}images/social/linkedin.png" class="social__icon"></a>
       <a href="https://www.instagram.com/milanjanosov_science"><img src="{{ site.BaseURL }}images/social/instagram.png" class="social__icon"></a>
       <a href="https://www.facebook.com/milanjanosovscience"><img src="{{ site.BaseURL }}images/social/facebook.png" class="social__icon"></a>
       <a href="https://www.twitter.com/milan_janosov"><img src="{{ site.BaseURL }}images/social/twitter.png" class="social__icon"></a>
+      <a href="https://www.youtube.com/@milanjanosov"><img src="{{ site.BaseURL }}images/social/youtube.png" class="social__icon"></a>
     </nav>
+  </div>
 </aside>
