@@ -5,7 +5,7 @@ theme = 'hyde'
 
 [Params]
 description = "Milan Janosov, PhD - Network scientist, data science researcher"
-lead = ['Network scientist', 'data science researcher']
+lead = ['Geospatial AI Consultant & Educator', 'The New Science of Maps']
 copyright = ' '
 
 [markup]
